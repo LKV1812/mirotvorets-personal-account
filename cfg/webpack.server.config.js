@@ -3,6 +3,7 @@ const nodeExternals = require('webpack-node-externals');
 
 const NODE_ENV = process.env.NODE_ENV;
 const GLOBAL_CSS_REGEXP = /\.global.css$/;
+const GLOBAL_SCSS_REGEXP = /\.global.scss$/;
 
 const styleLoaders = (loader) => {
   const loaders = [
@@ -43,7 +44,12 @@ module.exports = {
       },
       {
         test: /\.s[ac]ss$/,
-        use: styleLoaders('sass-loader')
+        use: styleLoaders('sass-loader'),
+        exclude: GLOBAL_SCSS_REGEXP
+      },
+      {
+        test: GLOBAL_SCSS_REGEXP,
+        use: [`css-loader`, 'sass-loader']
       },
       {
         test: /\.css$/,
@@ -53,6 +59,20 @@ module.exports = {
       {
         test: GLOBAL_CSS_REGEXP,
         use: [`css-loader`]
+      },
+      {
+        test: /\.(eot|svg|ttf|woff|woff2)$/,
+        use: [
+          {
+            loader: 'file-loader?name=./src/client/app/styles/fonts/gilroy/[name].[ext]'
+          },
+          {
+            loader: 'file-loader?name=./src/client/app/styles/fonts/hagin/[name].[ext]'
+          },
+          {
+            loader: 'file-loader?name=./src/client/app/styles/fonts/montserrat/[name].[ext]'
+          }
+        ]
       }
     ]
   },

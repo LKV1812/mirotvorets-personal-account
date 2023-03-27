@@ -1,0 +1,43 @@
+$textType1 : 'Hagin Caps';
+$textType2 : 'Gilroy';
+
+/*****************
+*
+* color
+*
+*****************/
+
+$mainColorBlocks                     : rgba(103, 175, 1, 1);
+$navBackgroundColor                  : rgba(103, 175, 1, 1);
+$buttonTypeA-Color                   : rgba(103, 175, 1, 1);
+$buttonTypeA-ColorHover              : rgba(77, 131, 0, 1);
+$buttonTypeB-Color                   : rgba(236, 232, 229, 1);
+$buttonTypeB-ColorHover              : rgba(221, 212, 203, 1);
+$buttonTypeB-TextColor               : #a48d90;
+$mainColorText                       : #612228;
+$colorTextType2                      : #67af01;
+$navLinkTextColor                    : #ffffff;
+$submenuLinkTextColor                : #67af01;
+$submenuLinkTextColorHover           : #ffffff;
+$listMarkerColor                     : #67af01;
+$disabledBackground                  : #ece8e5;
+$disabledColor                       : #a48d90;
+$errorColor                          : #d6251d;
+
+
+/*****************
+*
+* box-shadow
+*
+*****************/
+
+$stickerShadow                        : 5px 19px 60px 1px rgba(154,90,19,.8);
+$inputShadow                          : 1px 10px 46px rgba(214, 214, 214,1);
+$buttonShadowTypeA                    : 0 6px 30px 0 rgba(154,90,19,.44);
+$buttonShadowActiveTypeA              : inset 0 4px 1px 0 rgba(0, 0, 0, .17);
+$buttonShadowTypeB                    : 0 6px 30px 0 rgba(105,105,105,.64);
+$buttonShadowTypeC                    : 0 6px 30px 0 rgba(114, 81, 11, .64);
+$buttonShadowTypeD                    : 0 6px 30px 0 rgba(152, 152, 152, .44);
+$buttonShadowInsetTypeB               : inset 0 2px 0 0 rgba(100, 69, 61, .12);
+$buttonShadowTextTypeB                : 0 16px 50px rgba(154, 90, 19, .34);
+$cardShadow                           : 0 0 37px rgba(89, 50, 8, .15);

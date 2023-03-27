@@ -6,6 +6,7 @@ const NODE_ENV = process.env.NODE_ENV;
 const IS_DEV = NODE_ENV === "development";
 const IS_PROD = NODE_ENV === "production";
 const GLOBAL_CSS_REGEXP = /\.global.css$/;
+const GLOBAL_SCSS_REGEXP = /\.global.scss$/;
 
 const styleLoaders = (loader) => {
   const loaders = [
@@ -29,7 +30,7 @@ const styleLoaders = (loader) => {
 module.exports = {
   mode: NODE_ENV ? NODE_ENV : 'development',
   entry: [
-    path.resolve(__dirname, '../src/client/index.jsx'),
+    path.resolve(__dirname, '../src/client/index.tsx'),
     'webpack-hot-middleware/client?path=http://localhost:3001/static/__webpack_hmr'
   ],
   output: {
@@ -51,7 +52,12 @@ module.exports = {
       },
       {
         test: /\.s[ac]ss$/,
-        use: styleLoaders('sass-loader')
+        use: styleLoaders('sass-loader'),
+        exclude: GLOBAL_SCSS_REGEXP
+      },
+      {
+        test: GLOBAL_SCSS_REGEXP,
+        use: ['style-loader', `css-loader`, 'sass-loader']
       },
       {
         test: /\.css$/,
@@ -61,6 +67,20 @@ module.exports = {
       {
         test: GLOBAL_CSS_REGEXP,
         use: ['style-loader', `css-loader`]
+      },
+      {
+        test: /\.(eot|svg|ttf|woff|woff2)$/,
+        use: [
+          {
+            loader: 'file-loader?name=./src/client/app/styles/fonts/gilroy/[name].[ext]'
+          },
+          {
+            loader: 'file-loader?name=./src/client/app/styles/fonts/hagin/[name].[ext]'
+          },
+          {
+            loader: 'file-loader?name=./src/client/app/styles/fonts/montserrat/[name].[ext]'
+          }
+        ]
       }
     ]
   },

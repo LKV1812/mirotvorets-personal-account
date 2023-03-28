@@ -5,15 +5,10 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: var(--grayF4);
-    font-size: 14px;
-    line-height: 16px;
-    font-family: $textType1;
-    font-weight: 400;
+    font-family: $textType2;
 }
 
 * {
-    color: var(--black);
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -27,4 +22,138 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+input, textarea, select {
+    -webkit-appearance: none;
+    -moz-appearance:textfield;
+}
+
+input[type='number'] {
+    -webkit-appearance: none;
+    -moz-appearance:textfield;
+}
+
+input[type='text'] {
+    -webkit-appearance: none;
+    -moz-appearance:textfield;
+}
+
+input[type='range'] {
+    -webkit-appearance: none;
+    -moz-appearance:textfield;
+}
+
+input[type='checkbox'] {
+    -webkit-appearance: none;
+    -moz-appearance:textfield;
+}
+
+input[type='tel'] {
+    -webkit-appearance: none;
+    -moz-appearance:textfield;
+}
+
+input[type='email'] {
+    -webkit-appearance: none;
+    -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+//TODO добавить картинки для скролла
+.scroll-vertical-small {
+    // совойства для firefox
+    scrollbar-width: thin;
+    scrollbar-color: #bca5a7 #d9d9d9;
+
+    &::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background-color: inherit;
+        background: linear-gradient(90deg, rgba(255,255,255,1) 30%, rgba(217,217,217,1) 50%, rgba(255,255,255,1) 70%);;
+        margin-left: 15px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        width: 4px;
+        border-radius: 2px;
+        background-color: #bca5a7;
+    }
+
+    &::-webkit-scrollbar-button:decrement {
+        //background-image: url("../img/form/scroll-button-top-select.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+
+    &::-webkit-scrollbar-button:increment {
+        //background-image: url("../img/form/scroll-button-bottom-select.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+}
+
+.scroll-horizontal {
+    // совойства для firefox
+    scrollbar-width: thin;
+    scrollbar-color: #bca5a7 #d9d9d9;
+
+    &::-webkit-scrollbar {
+        height: 8px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background-color: inherit;
+        background: linear-gradient(0deg, rgba(255,255,255,1) 30%, rgba(217,217,217,1) 50%, rgba(255,255,255,1) 70%);;
+        margin-top: 15px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        height: 4px;
+        border-radius: 2px;
+        background-color: #bca5a7;
+    }
+}
+
+.scroll-horizontal-small {
+    // совойства для firefox
+    scrollbar-width: thin;
+    scrollbar-color: #bca5a7 #d9d9d9;
+
+    &::-webkit-scrollbar {
+        height: 2px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background-color: inherit;
+        background: linear-gradient(0deg, rgba(255,255,255,1) 30%, rgba(217,217,217,1) 50%, rgba(255,255,255,1) 70%);;
+        margin-top: 15px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        height: 2px;
+        border-radius: 2px;
+        background-color: #bca5a7;
+    }
+}
+
+.scroll-horizontal-invisible {
+    // совойства для firefox
+    scrollbar-width: thin;
+
+    &::-webkit-scrollbar {
+        height: 0;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        height: 0;
+    }
 }

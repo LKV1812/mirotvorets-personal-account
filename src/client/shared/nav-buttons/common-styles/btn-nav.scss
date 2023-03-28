@@ -1,0 +1,36 @@
+@import "../../styles/variables/variables.scss";
+
+.item {
+  display: flex;
+  align-items: stretch;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  padding-left: 7px;
+  padding-right: 7px;
+  margin: 0;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.item.is-active {
+  background-color: #46661b;
+}
+
+.contentWrap {
+  align-self: flex-end;
+  padding-bottom: 2px;
+}
+
+.icon {
+  line-height: 0;
+  margin-bottom: 2px;
+}
+
+.name {
+  font-family: $textType2;
+  font-weight: 500;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  color: $navLinkTextColor;
+}

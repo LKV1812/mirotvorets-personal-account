@@ -1,0 +1,121 @@
+@import '../../styles/variables/variables.scss';
+
+.inputWrap {
+  position: relative;
+  width: 100%;
+  z-index: 0;
+  transition: border-bottom .3s;
+
+  &--border-bottom {
+    border-bottom: 1px solid #aaa;
+  }
+
+  &--notification-warning {
+    border-bottom: 1px solid #ffc107;
+  }
+
+  &--notification-error {
+    border-bottom: 1px solid $errorColor;
+  }
+
+  &--notification-info {
+    border-bottom: 1px solid #0446AA;
+  }
+
+  &--notification-success {
+    border-bottom: 1px solid $colorTextType2;
+  }
+}
+
+.order-delivery__input-wrap + .order-delivery__input-wrap,
+.order-delivery__textarea-wrap + .order-delivery__input-wrap {
+  margin-top: 8px;
+}
+
+.label {
+  position: absolute;
+  top: -2px;
+  left: 0;
+  width: 11px;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+  line-height: 0;
+  outline: none;
+
+  & > svg {
+    width: 100%;
+  }
+}
+
+.field {
+  width: 100%;
+  padding-left: 17px;
+  padding-top: 7px;
+  padding-bottom: 3px;
+  margin: 0;
+  border: none;
+  border-bottom: 1px solid #AAAAAA;
+  border-radius: 0;
+  background-color: #ffffff;
+  box-shadow: none;
+  font-family: $textType2;
+  font-size: 14px;
+  color: $mainColorText;
+  font-weight: 400;
+  box-sizing: border-box;
+  outline: none;
+
+  &::-webkit-input-placeholder  {font-family: $textType2; font-size: 14px; color: #AAAAAA; font-weight: 400;}
+  &::-moz-placeholder           {font-family: $textType2; font-size: 14px; color: #AAAAAA; font-weight: 400;}
+  &:-moz-placeholder            {font-family: $textType2; font-size: 14px; color: #AAAAAA; font-weight: 400;}
+  &:-ms-input-placeholder       {font-family: $textType2; font-size: 14px; color: #AAAAAA; font-weight: 400;}
+  &::-webkit-input-placeholder       {text-indent: 0px;   transition: text-indent 0.5s ease; }
+  &::-moz-placeholder                {text-indent: 0px;   transition: text-indent 0.5s ease; }
+  &:-moz-placeholder                 {text-indent: 0px;   transition: text-indent 0.5s ease; }
+  &:-ms-input-placeholder            {text-indent: 0px;   transition: text-indent 0.5s ease; }
+  &:focus::-webkit-input-placeholder {text-indent: 500px; transition: text-indent 0.5s ease; }
+  &:focus::-moz-placeholder          {text-indent: 500px; transition: text-indent 0.5s ease; }
+  &:focus:-moz-placeholder           {text-indent: 500px; transition: text-indent 0.5s ease; }
+  &:focus:-ms-input-placeholder      {text-indent: 500px; transition: text-indent 0.5s ease; }
+
+  &--time {
+    width: 25px;
+    padding-left: 4px;
+    padding-right: 4px;
+    text-align: center;
+  }
+
+  &.is-error {
+    border-color: $errorColor;
+
+    &::-webkit-input-placeholder  {font-size: 14px; color: $errorColor;}
+    &::-moz-placeholder           {font-size: 14px; color: $errorColor;}
+    &:-moz-placeholder            {font-size: 14px; color: $errorColor;}
+    &:-ms-input-placeholder       {font-size: 14px; color: $errorColor;}
+  }
+
+  &--review {
+    width: 100%;
+
+    @media (min-width: 1200px) {
+      width: 350px;
+    }
+  }
+
+}
+
+#inputDate {
+  width: 110px;
+  padding-right: 0;
+  box-sizing: border-box;
+  cursor: default;
+
+  &::selection {
+    background-color: $navBackgroundColor;
+    color: $navLinkTextColor;
+  }
+}

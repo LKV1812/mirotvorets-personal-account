@@ -1,0 +1,92 @@
+@import '../../../../../shared/styles/variables/variables';
+
+.top2 {
+  top: 2px;
+}
+
+.wrap {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  padding-top: 3px;
+  color: $mainColorText;
+  font-family: $textType2;
+  font-size: 14px;
+  font-weight: 400;
+
+  & > input {
+    border: none;
+  }
+
+  & > span {
+    white-space: nowrap;
+  }
+}
+
+.input {
+  width: 110px;
+  padding-right: 0;
+  box-sizing: border-box;
+  cursor: default;
+
+  &::selection {
+    background-color: $navBackgroundColor;
+    color: $navLinkTextColor;
+  }
+}
+
+.icon {
+  line-height: 0;
+  margin-right: 6px;
+
+  & > svg {
+    line-height: 0;
+    width: 13px;
+    height: 14px;
+  }
+}
+
+.time {
+  width: 25px;
+  padding-left: 4px;
+  padding-right: 4px;
+  text-align: center;
+}
+
+.notification {
+  position: absolute;
+  top: calc(100% + 2px);
+  left: 0;
+  font-family: $textType2;
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: inherit;
+  opacity: 0;
+  transition: opacity 0.7s;
+}
+
+.notification.warning {
+  color:#ffc107;
+  opacity: 1;
+}
+
+.notification.error {
+  color: $errorColor;
+  opacity: 1;
+}
+
+.notification.info {
+  color: #0446AA;
+  opacity: 1;
+}
+
+.notification.success {
+  color: $colorTextType2;
+  opacity: 1;
+}
+
+.fil0 {
+  fill: #67AF01;
+  fill-rule: nonzero
+}
+

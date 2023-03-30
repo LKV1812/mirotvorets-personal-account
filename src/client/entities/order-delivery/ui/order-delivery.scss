@@ -106,88 +106,16 @@
   margin-left: 8px;
 }
 
-.flex-wrap-for-date-and-time {
-  display: flex;
-  justify-content: flex-start;
-  align-items: baseline;
-  color: $mainColorText;
-  font-family: $textType2;
-  font-size: 14px;
-  font-weight: 400;
-
-  & > input {
-    border: none;
-  }
-
-  & > span {
-    white-space: nowrap;
-  }
-}
-
-.order-delivery__date-notification {
-  position: absolute;
-  top: calc(100% + 2px);
-  left: 0;
-  font-family: $textType2;
-  font-size: 11px;
-  letter-spacing: 1px;
-  color: inherit;
-  opacity: 0;
-  transition: opacity 0.7s;
-
-  &--warning {
-    color:#ffc107;
-    opacity: 1;
-  }
-
-  &--error {
-    color: $errorColor;
-    opacity: 1;
-  }
-
-  &--info {
-    color: #0446AA;
-    opacity: 1;
-  }
-
-  &--success {
-    color: $colorTextType2;
-    opacity: 1;
-  }
-}
-
-.order-delivery__icon-clock {
-  line-height: 0;
-  margin-right: 6px;
-
-  & > svg {
-    line-height: 0;
-    width: 13px;
-    height: 14px;
-  }
-}
-
 #suggestViewContainer {
   position: relative;
   height: 0;
   width: 100%;
 }
 
-.order-delivery__submit-wrap {
+.buttonSubmitWrap {
   display: flex;
   justify-content: center;
   padding-top: 20px;
-}
-
-.order-delivery__btn-submit {
-  width: 100%;
-  height: initial;
-  padding: 0.375rem 1rem;
-  border-radius: 3px;
-  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.15);
-  text-align: center;
-  font-size: 1.125rem;
-  letter-spacing: 2px;
 }
 
 .order-delivery__pop-up-result {

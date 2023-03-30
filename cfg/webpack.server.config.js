@@ -2,6 +2,7 @@ const path = require('path');
 const nodeExternals = require('webpack-node-externals');
 
 const NODE_ENV = process.env.NODE_ENV;
+const IS_DEV = NODE_ENV === "development";
 const GLOBAL_CSS_REGEXP = /\.global.css$/;
 const GLOBAL_SCSS_REGEXP = /\.global.scss$/;
 
@@ -10,6 +11,7 @@ const styleLoaders = (loader) => {
     {
       loader: 'css-loader',
       options: {
+        sourceMap: IS_DEV,
         modules: {
           mode: 'local',
           localIdentName: '[name]__[local]-[hash:base64:5]',

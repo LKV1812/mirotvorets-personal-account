@@ -14,6 +14,7 @@ const styleLoaders = (loader) => {
     {
       loader: 'css-loader',
       options: {
+        sourceMap: IS_DEV,
         modules: {
           mode: 'local',
           localIdentName: '[name]__[local]-[hash:base64:5]',

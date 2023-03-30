@@ -1,0 +1,340 @@
+@import '../../../../../../../shared/styles/variables/variables';
+
+.container {
+  max-height: 0;
+  position: absolute;
+  bottom: 1px;
+  left: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.15);
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  transition: ease-out 0.8s;
+}
+
+.active {
+  max-height: 500px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  transition: ease-out 0.8s;
+}
+
+.btnCloseWrap {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.btnClose {
+  width: 1rem;
+  height: 1rem;
+  background-color: transparent;
+  border: none;
+  transition: transform 0.3s;
+  transform: rotate(45deg);
+  outline: none;
+  cursor: pointer;
+}
+
+.btnClose::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  transform: translateX(-50%);
+  background-color: $colorTextType2;
+}
+
+.btnClose::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: 2px;
+  transform: translateY(-50%);
+  background-color: $colorTextType2;
+}
+
+.notification {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0px;
+  height: max-content;
+  display: block;
+  padding: 6px 10px;
+  background-color: #FFFFFF;
+  background-color: transparent;
+  border-radius: 3px;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.15);
+  font-family: $textType2;
+  font-size: 12px;
+  letter-spacing: 1px;
+  z-index: -1;
+  transition: ease-in-out 0.8s;
+
+  &[data-is-active] {
+    transform: translateY(calc(-100% - 2px));
+  }
+}
+
+.calendar-notification-error {
+  background-color: #d6251d;
+  color: #FFFFFF;
+
+  & .calendar-notification__btn-close {
+    color: #d6251d;
+  }
+}
+
+.calendar-notification-warning {
+  // border: 1px solid #bb931d;
+  background-color: #ffc107;
+  color: #000000;
+
+  & > .calendar-notification__btn-close {
+    color: #ffc107;
+  }
+}
+
+.calendar-notification-info {
+  background-color: #0446AA;
+  color: #FFFFFF;
+
+  & > .calendar-notification__btn-close {
+    color: #0446AA;
+  }
+}
+
+.calendar-notification-success {
+  background-color: #67AF01;
+  color: #FFFFFF;
+
+  & > .calendar-notification__btn-close {
+    color: #67AF01;
+  }
+}
+
+.notificationText {
+  margin-bottom: 6px;
+}
+
+.notificationBtnClose {
+  display: block;
+  padding: 6px 18px;
+  margin-left: auto;
+  margin-right: 0;
+  text-transform: uppercase;
+  line-height: 0.5;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 15px;
+  border: 1px solid #FFFFFF;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.15);
+  font-family: $textType1;
+  font-size: 0.75rem;
+  letter-spacing: 0.05rem;
+  color: #FFFFFF;
+  transition: 0.2s;
+  cursor: pointer;
+
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.selectDate {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-bottom: 10px;
+}
+
+.prevSelectDate,
+.nextSelectDate {
+  display: flex;
+  width: 15px;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+
+  &::after {
+    content: "";
+    align-self: center;
+    border: solid $mainColorText;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 2px;
+  }
+}
+
+.prevSelectDate {justify-content: flex-start;}
+.nextSelectDate {justify-content: flex-end;}
+
+.prevSelectDate::after {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.nextSelectDate::after {
+  margin-right: 0;
+  margin-left: auto;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.disabled-arrow {
+  opacity: 0.3;
+}
+
+.outputSelectedDate {
+  font-family: $textType2;
+  color: $mainColorText;
+  font-size: 0.875rem;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+}
+
+.tableHeadCell {
+  padding: 4px 6px;
+  padding-bottom: 10px;
+  text-align: center;
+  vertical-align: middle;
+  font-family: $textType2;
+  font-weight: 400;
+  font-size: 0.75rem;
+  color: #AAAAAA;
+}
+
+.tableCell {
+  padding: 4px 6px;
+  text-align: center;
+  vertical-align: middle;
+  font-family: $textType2;
+  color: $mainColorText;
+  font-weight: 400;
+  font-size: 0.75rem;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $buttonTypeB-ColorHover;
+  }
+
+  &--not-current-month {
+    color: #c5bfbb;
+  }
+
+}
+
+.calendar__selected-date {
+  background-color: $navBackgroundColor;
+  color: #FFFFFF;
+  border-radius: 3px;
+
+  &:hover {
+    background-color: $navBackgroundColor;
+  }
+}
+
+.selectTime {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  margin-top: 12px;
+  margin-bottom: 20px;
+  font-family: $textType2;
+  color: $mainColorText;
+  font-size: 0.875rem;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+}
+
+.inputTimeWrap {
+  display: flex;
+}
+
+.selectTimeInput {
+  width: 25px;
+  border: none;
+  border-bottom: 1px solid #AAAAAA;
+  font-family: $textType2;
+  color: $mainColorText;
+  text-align: center;
+  outline-color: transparent;
+
+  &::-webkit-input-placeholder {
+    font-family: $textType2;
+    font-size: 0.875rem;
+    color: #AAAAAA;
+    text-align: center;
+    text-indent: 0;
+    transition: text-indent 0.5s ease;
+  }
+
+  &::-moz-placeholder {
+    font-family: $textType2;
+    font-size: 0.875rem;
+    color: #AAAAAA;
+    text-align: center;
+    text-indent: 0px;
+    transition: text-indent 0.5s ease;
+  }
+
+  &:-moz-placeholder {
+    font-family: $textType2;
+    font-size: 0.875rem;
+    color: #AAAAAA;
+    text-align: center;
+    text-indent: 0px;
+    transition: text-indent 0.5s ease;
+  }
+
+  &:-ms-input-placeholder {
+    font-family: $textType2;
+    font-size: 0.875rem;
+    color: #AAAAAA;
+    text-align: center;
+    text-indent: 0px;
+    transition: text-indent 0.5s ease;
+  }
+
+  &:focus::-webkit-input-placeholder {text-indent: 100px; transition: text-indent 0.5s ease;}
+  &:focus::-moz-placeholder {text-indent: 100px; transition: text-indent 0.5s ease;}
+  &:focus:-moz-placeholder {text-indent: 100px; transition: text-indent 0.5s ease;}
+  &:focus:-ms-input-placeholder {text-indent: 100px; transition: text-indent 0.5s ease;}
+}
+
+.inputSaveWrap {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btnCloseCalendar,
+.btnSaveDate {
+  display: block;
+  padding: 8px 24px;
+  text-transform: uppercase;
+  line-height: 0.5;
+  background-color: $buttonTypeA-Color;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+  font-family: $textType1;
+  font-size: 0.75rem;
+  letter-spacing: 0.05rem;
+  color: #FFFFFF;
+  transition: 0.2s;
+  cursor: pointer;
+
+  &:focus {
+    box-shadow: none;
+  }
+}

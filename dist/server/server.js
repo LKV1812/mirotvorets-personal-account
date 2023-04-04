@@ -129,7 +129,42 @@ eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod)
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    var desc = Object.getOwnPropertyDescriptor(m, k);\r\n    if (!desc || (\"get\" in desc ? !m.__esModule : desc.writable || desc.configurable)) {\r\n      desc = { enumerable: true, get: function() { return m[k]; } };\r\n    }\r\n    Object.defineProperty(o, k2, desc);\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./order-delivery */ \"./src/client/entities/order-delivery/index.ts\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/client/entities/index.ts?");
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    var desc = Object.getOwnPropertyDescriptor(m, k);\r\n    if (!desc || (\"get\" in desc ? !m.__esModule : desc.writable || desc.configurable)) {\r\n      desc = { enumerable: true, get: function() { return m[k]; } };\r\n    }\r\n    Object.defineProperty(o, k2, desc);\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./order-delivery */ \"./src/client/entities/order-delivery/index.ts\"), exports);\r\n__exportStar(__webpack_require__(/*! ./map */ \"./src/client/entities/map/index.ts\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/client/entities/index.ts?");
+
+/***/ }),
+
+/***/ "./src/client/entities/map/index.ts":
+/*!******************************************!*\
+  !*** ./src/client/entities/map/index.ts ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    var desc = Object.getOwnPropertyDescriptor(m, k);\r\n    if (!desc || (\"get\" in desc ? !m.__esModule : desc.writable || desc.configurable)) {\r\n      desc = { enumerable: true, get: function() { return m[k]; } };\r\n    }\r\n    Object.defineProperty(o, k2, desc);\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./ui/MapYandex */ \"./src/client/entities/map/ui/MapYandex.tsx\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/client/entities/map/index.ts?");
+
+/***/ }),
+
+/***/ "./src/client/entities/map/ui/MapYandex.tsx":
+/*!**************************************************!*\
+  !*** ./src/client/entities/map/ui/MapYandex.tsx ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.MapYandex = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"react\"));\r\nvar map_yandex_scss_1 = __importDefault(__webpack_require__(/*! ./map-yandex.scss */ \"./src/client/entities/map/ui/map-yandex.scss\"));\r\nvar MapYandex = function () { return (react_1.default.createElement(\"div\", { className: map_yandex_scss_1.default.container, id: \"mapDelivery\" })); };\r\nexports.MapYandex = MapYandex;\r\n\n\n//# sourceURL=webpack:///./src/client/entities/map/ui/MapYandex.tsx?");
+
+/***/ }),
+
+/***/ "./src/client/entities/map/ui/map-yandex.scss":
+/*!****************************************************!*\
+  !*** ./src/client/entities/map/ui/map-yandex.scss ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("// Exports\nmodule.exports = {\n\t\"container\": \"map-yandex__container-4-Ppm\"\n};\n\n\n//# sourceURL=webpack:///./src/client/entities/map/ui/map-yandex.scss?");
 
 /***/ }),
 
@@ -551,7 +586,7 @@ eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.MainPage = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"react\"));\r\nvar widgets_1 = __webpack_require__(/*! ../../../../widgets */ \"./src/client/widgets/index.ts\");\r\nvar entities_1 = __webpack_require__(/*! ../../../../entities */ \"./src/client/entities/index.ts\");\r\nvar main_page_scss_1 = __importDefault(__webpack_require__(/*! ./main-page.scss */ \"./src/client/pages/main/ui/main-page/main-page.scss\"));\r\nvar recycling_centers_list_1 = __webpack_require__(/*! ../../../../entities/recycling-centers-list */ \"./src/client/entities/recycling-centers-list/index.ts\");\r\nvar MainPage = function () { return (react_1.default.createElement(\"div\", { className: main_page_scss_1.default.container },\r\n    react_1.default.createElement(widgets_1.Nav, null),\r\n    react_1.default.createElement(recycling_centers_list_1.RecyclingCentersList, null),\r\n    react_1.default.createElement(entities_1.FormDelivery, null),\r\n    react_1.default.createElement(\"div\", { className: \"map-wrap\" },\r\n        react_1.default.createElement(\"button\", { className: \"btn-remove-route\", id: \"btn-remove-route\", type: \"button\" },\r\n            react_1.default.createElement(\"span\", { className: \"btn-remove-route__icon\" }, \"\\u2716\"),\r\n            react_1.default.createElement(\"span\", { className: \"btn-remove-route__text\" }, \"\\u0423\\u0434\\u0430\\u043B\\u0438\\u0442\\u044C \\u043C\\u0430\\u0440\\u0448\\u0440\\u0443\\u0442\")),\r\n        react_1.default.createElement(\"div\", { className: \"map-delivery\", id: \"mapDelivery\" })))); };\r\nexports.MainPage = MainPage;\r\n\n\n//# sourceURL=webpack:///./src/client/pages/main/ui/main-page/MainPage.tsx?");
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.MainPage = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"react\"));\r\nvar widgets_1 = __webpack_require__(/*! ../../../../widgets */ \"./src/client/widgets/index.ts\");\r\nvar entities_1 = __webpack_require__(/*! ../../../../entities */ \"./src/client/entities/index.ts\");\r\nvar main_page_scss_1 = __importDefault(__webpack_require__(/*! ./main-page.scss */ \"./src/client/pages/main/ui/main-page/main-page.scss\"));\r\nvar recycling_centers_list_1 = __webpack_require__(/*! ../../../../entities/recycling-centers-list */ \"./src/client/entities/recycling-centers-list/index.ts\");\r\nvar shared_1 = __webpack_require__(/*! ../../../../shared */ \"./src/client/shared/index.ts\");\r\nvar MainPage = function () { return (react_1.default.createElement(\"div\", { className: main_page_scss_1.default.container },\r\n    react_1.default.createElement(widgets_1.Nav, null),\r\n    react_1.default.createElement(recycling_centers_list_1.RecyclingCentersList, null),\r\n    react_1.default.createElement(entities_1.FormDelivery, null),\r\n    react_1.default.createElement(\"div\", { className: main_page_scss_1.default.mapWrap },\r\n        react_1.default.createElement(shared_1.RemoveRouteBtn, null),\r\n        react_1.default.createElement(entities_1.MapYandex, null)))); };\r\nexports.MainPage = MainPage;\r\n\n\n//# sourceURL=webpack:///./src/client/pages/main/ui/main-page/MainPage.tsx?");
 
 /***/ }),
 
@@ -562,7 +597,7 @@ eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod)
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("// Exports\nmodule.exports = {\n\t\"container\": \"main-page__container-3JhHx\"\n};\n\n\n//# sourceURL=webpack:///./src/client/pages/main/ui/main-page/main-page.scss?");
+eval("// Exports\nmodule.exports = {\n\t\"container\": \"main-page__container-3JhHx\",\n\t\"mapWrap\": \"main-page__mapWrap-3A1Qz\"\n};\n\n\n//# sourceURL=webpack:///./src/client/pages/main/ui/main-page/main-page.scss?");
 
 /***/ }),
 
@@ -574,7 +609,30 @@ eval("// Exports\nmodule.exports = {\n\t\"container\": \"main-page__container-3J
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    var desc = Object.getOwnPropertyDescriptor(m, k);\r\n    if (!desc || (\"get\" in desc ? !m.__esModule : desc.writable || desc.configurable)) {\r\n      desc = { enumerable: true, get: function() { return m[k]; } };\r\n    }\r\n    Object.defineProperty(o, k2, desc);\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./submit-button */ \"./src/client/shared/buttons/submit-button/index.ts\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/client/shared/buttons/index.ts?");
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    var desc = Object.getOwnPropertyDescriptor(m, k);\r\n    if (!desc || (\"get\" in desc ? !m.__esModule : desc.writable || desc.configurable)) {\r\n      desc = { enumerable: true, get: function() { return m[k]; } };\r\n    }\r\n    Object.defineProperty(o, k2, desc);\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./submit-button */ \"./src/client/shared/buttons/submit-button/index.ts\"), exports);\r\n__exportStar(__webpack_require__(/*! ./remove-route/RemoveRouteBtn */ \"./src/client/shared/buttons/remove-route/RemoveRouteBtn.tsx\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/client/shared/buttons/index.ts?");
+
+/***/ }),
+
+/***/ "./src/client/shared/buttons/remove-route/RemoveRouteBtn.tsx":
+/*!*******************************************************************!*\
+  !*** ./src/client/shared/buttons/remove-route/RemoveRouteBtn.tsx ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.RemoveRouteBtn = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"react\"));\r\nvar remove_route_scss_1 = __importDefault(__webpack_require__(/*! ./remove-route.scss */ \"./src/client/shared/buttons/remove-route/remove-route.scss\"));\r\nvar RemoveRouteBtn = function () { return (react_1.default.createElement(\"button\", { className: remove_route_scss_1.default.button, \"data-is\": 'active', id: \"btn-remove-route\", type: \"button\" },\r\n    react_1.default.createElement(\"span\", { className: remove_route_scss_1.default.icon }, \"\\u2716\"),\r\n    react_1.default.createElement(\"span\", { className: remove_route_scss_1.default.text }, \"\\u0423\\u0434\\u0430\\u043B\\u0438\\u0442\\u044C \\u043C\\u0430\\u0440\\u0448\\u0440\\u0443\\u0442\"))); };\r\nexports.RemoveRouteBtn = RemoveRouteBtn;\r\n\n\n//# sourceURL=webpack:///./src/client/shared/buttons/remove-route/RemoveRouteBtn.tsx?");
+
+/***/ }),
+
+/***/ "./src/client/shared/buttons/remove-route/remove-route.scss":
+/*!******************************************************************!*\
+  !*** ./src/client/shared/buttons/remove-route/remove-route.scss ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("// Exports\nmodule.exports = {\n\t\"button\": \"remove-route__button-3IczH\",\n\t\"icon\": \"remove-route__icon-1hn17\"\n};\n\n\n//# sourceURL=webpack:///./src/client/shared/buttons/remove-route/remove-route.scss?");
 
 /***/ }),
 

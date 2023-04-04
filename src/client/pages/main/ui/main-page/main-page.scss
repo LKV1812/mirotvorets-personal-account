@@ -3,3 +3,9 @@
   height: 100vh;
   overflow: hidden;
 }
+
+.mapWrap {
+  position: relative;
+  max-width: 100%;
+  height: calc(100vh - 45px);
+}

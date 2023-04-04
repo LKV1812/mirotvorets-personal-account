@@ -1,9 +1,8 @@
 import React from 'react'
 import {Nav} from '../../../../widgets'
-import {FormDelivery, MapYandex} from '../../../../entities'
-import styles from './main-page.scss'
-import {RecyclingCentersList} from '../../../../entities/recycling-centers-list'
+import {FormDelivery, RecyclingCentersList, MapYandex, PrivacyPolicy} from '../../../../entities'
 import {RemoveRouteBtn} from '../../../../shared'
+import styles from './main-page.scss'
 
 export const MainPage = () => (
     <div className={styles.container}>
@@ -13,6 +12,7 @@ export const MainPage = () => (
         <div className={styles.mapWrap}>
             <RemoveRouteBtn />
             <MapYandex />
+            <PrivacyPolicy />
         </div>
     </div>
 )

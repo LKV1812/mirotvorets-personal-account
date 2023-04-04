@@ -1,0 +1,28 @@
+@import '../../../../../shared/styles/variables/variables';
+
+.head {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  background-color: #FFFFFF;
+  font-family: $textType1;
+  font-size: 1.125rem;
+  color: $mainColorText;
+  letter-spacing: 0.8px;
+  text-align: center;
+  z-index: 1;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.head:hover > [data-btn='recycling-centers-hide'] {
+  transform: translateX(-10px);
+}
+
+.text {
+  flex-grow: 1;
+  text-align: center;
+}

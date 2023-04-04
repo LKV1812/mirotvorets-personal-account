@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "261795f70576540166b0";
+/******/ 	var hotCurrentHash = "899afd700d545b1fc32d";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -838,29 +838,7 @@ eval("\r\nmodule.exports = ansiHTML;\r\n// Reference to https://github.com/sindr
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nvar ___CSS_LOADER_AT_RULE_IMPORT_0___ = __webpack_require__(/*! -!../../../node_modules/css-loader/dist/cjs.js!./styles/fonts/gilroy/stylesheet.scss */ \"./node_modules/css-loader/dist/cjs.js!./src/client/app/styles/fonts/gilroy/stylesheet.scss\");\nvar ___CSS_LOADER_AT_RULE_IMPORT_1___ = __webpack_require__(/*! -!../../../node_modules/css-loader/dist/cjs.js!./styles/fonts/hagin/stylesheet.scss */ \"./node_modules/css-loader/dist/cjs.js!./src/client/app/styles/fonts/hagin/stylesheet.scss\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\nexports.i(___CSS_LOADER_AT_RULE_IMPORT_0___);\nexports.i(___CSS_LOADER_AT_RULE_IMPORT_1___);\n// Module\nexports.push([module.i, \"/*****************\\n*\\n* color\\n*\\n*****************/\\n/*****************\\n*\\n* box-shadow\\n*\\n*****************/\\nbody {\\n  margin: 0;\\n  padding: 0;\\n  font-family: \\\"Gilroy\\\";\\n}\\n\\n* {\\n  box-sizing: border-box;\\n  -webkit-font-smoothing: antialiased;\\n  -moz-osx-font-smoothing: grayscale;\\n}\\n\\nul {\\n  margin: 0;\\n  padding: 0;\\n  list-style: none;\\n}\\n\\na {\\n  text-decoration: none;\\n}\\n\\ninput, textarea, select {\\n  -webkit-appearance: none;\\n  -moz-appearance: textfield;\\n}\\n\\ninput[type=number] {\\n  -webkit-appearance: none;\\n  -moz-appearance: textfield;\\n}\\n\\ninput[type=text] {\\n  -webkit-appearance: none;\\n  -moz-appearance: textfield;\\n}\\n\\ninput[type=range] {\\n  -webkit-appearance: none;\\n  -moz-appearance: textfield;\\n}\\n\\ninput[type=checkbox] {\\n  -webkit-appearance: none;\\n  -moz-appearance: textfield;\\n}\\n\\ninput[type=tel] {\\n  -webkit-appearance: none;\\n  -moz-appearance: textfield;\\n}\\n\\ninput[type=email] {\\n  -webkit-appearance: none;\\n  -moz-appearance: textfield;\\n}\\n\\ninput::-webkit-outer-spin-button,\\ninput::-webkit-inner-spin-button {\\n  -webkit-appearance: none;\\n}\\n\\n.scroll-vertical-small {\\n  scrollbar-width: thin;\\n  scrollbar-color: #bca5a7 #d9d9d9;\\n}\\n.scroll-vertical-small::-webkit-scrollbar {\\n  width: 8px;\\n}\\n.scroll-vertical-small::-webkit-scrollbar-track {\\n  background-color: inherit;\\n  background: linear-gradient(90deg, rgb(255, 255, 255) 30%, rgb(217, 217, 217) 50%, rgb(255, 255, 255) 70%);\\n  margin-left: 15px;\\n}\\n.scroll-vertical-small::-webkit-scrollbar-thumb {\\n  width: 4px;\\n  border-radius: 2px;\\n  background-color: #bca5a7;\\n}\\n.scroll-vertical-small::-webkit-scrollbar-button:decrement {\\n  background-repeat: no-repeat;\\n  background-position: center;\\n  background-size: contain;\\n}\\n.scroll-vertical-small::-webkit-scrollbar-button:increment {\\n  background-repeat: no-repeat;\\n  background-position: center;\\n  background-size: contain;\\n}\\n\\n.scroll-horizontal {\\n  scrollbar-width: thin;\\n  scrollbar-color: #bca5a7 #d9d9d9;\\n}\\n.scroll-horizontal::-webkit-scrollbar {\\n  height: 8px;\\n}\\n.scroll-horizontal::-webkit-scrollbar-track {\\n  background-color: inherit;\\n  background: linear-gradient(0deg, rgb(255, 255, 255) 30%, rgb(217, 217, 217) 50%, rgb(255, 255, 255) 70%);\\n  margin-top: 15px;\\n}\\n.scroll-horizontal::-webkit-scrollbar-thumb {\\n  height: 4px;\\n  border-radius: 2px;\\n  background-color: #bca5a7;\\n}\\n\\n.scroll-horizontal-small {\\n  scrollbar-width: thin;\\n  scrollbar-color: #bca5a7 #d9d9d9;\\n}\\n.scroll-horizontal-small::-webkit-scrollbar {\\n  height: 2px;\\n}\\n.scroll-horizontal-small::-webkit-scrollbar-track {\\n  background-color: inherit;\\n  background: linear-gradient(0deg, rgb(255, 255, 255) 30%, rgb(217, 217, 217) 50%, rgb(255, 255, 255) 70%);\\n  margin-top: 15px;\\n}\\n.scroll-horizontal-small::-webkit-scrollbar-thumb {\\n  height: 2px;\\n  border-radius: 2px;\\n  background-color: #bca5a7;\\n}\\n\\n.scroll-horizontal-invisible {\\n  scrollbar-width: thin;\\n}\\n.scroll-horizontal-invisible::-webkit-scrollbar {\\n  height: 0;\\n}\\n.scroll-horizontal-invisible::-webkit-scrollbar-thumb {\\n  height: 0;\\n}\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/client/app/app.global.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js!./src/client/app/styles/fonts/gilroy/stylesheet.scss":
-/*!**************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/client/app/styles/fonts/gilroy/stylesheet.scss ***!
-  \**************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nvar ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../../../../../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ./Gilroy-Thin.eot */ \"./src/client/app/styles/fonts/gilroy/Gilroy-Thin.eot\");\nvar ___CSS_LOADER_URL_IMPORT_1___ = __webpack_require__(/*! ./Gilroy-Thin.woff */ \"./src/client/app/styles/fonts/gilroy/Gilroy-Thin.woff\");\nvar ___CSS_LOADER_URL_IMPORT_2___ = __webpack_require__(/*! ./Gilroy-Thin.ttf */ \"./src/client/app/styles/fonts/gilroy/Gilroy-Thin.ttf\");\nvar ___CSS_LOADER_URL_IMPORT_3___ = __webpack_require__(/*! ./Gilroy-UltraLight.eot */ \"./src/client/app/styles/fonts/gilroy/Gilroy-UltraLight.eot\");\nvar ___CSS_LOADER_URL_IMPORT_4___ = __webpack_require__(/*! ./Gilroy-UltraLight.woff */ \"./src/client/app/styles/fonts/gilroy/Gilroy-UltraLight.woff\");\nvar ___CSS_LOADER_URL_IMPORT_5___ = __webpack_require__(/*! ./Gilroy-UltraLight.ttf */ \"./src/client/app/styles/fonts/gilroy/Gilroy-UltraLight.ttf\");\nvar ___CSS_LOADER_URL_IMPORT_6___ = __webpack_require__(/*! ./Gilroy-Light.eot */ \"./src/client/app/styles/fonts/gilroy/Gilroy-Light.eot\");\nvar ___CSS_LOADER_URL_IMPORT_7___ = __webpack_require__(/*! ./Gilroy-Light.woff */ \"./src/client/app/styles/fonts/gilroy/Gilroy-Light.woff\");\nvar ___CSS_LOADER_URL_IMPORT_8___ = __webpack_require__(/*! ./Gilroy-Light.ttf */ \"./src/client/app/styles/fonts/gilroy/Gilroy-Light.ttf\");\nvar ___CSS_LOADER_URL_IMPORT_9___ = __webpack_require__(/*! ./Gilroy-Regular.eot */ \"./src/client/app/styles/fonts/gilroy/Gilroy-Regular.eot\");\nvar ___CSS_LOADER_URL_IMPORT_10___ = __webpack_require__(/*! ./Gilroy-Regular.woff */ \"./src/client/app/styles/fonts/gilroy/Gilroy-Regular.woff\");\nvar ___CSS_LOADER_URL_IMPORT_11___ = __webpack_require__(/*! ./Gilroy-Regular.ttf */ \"./src/client/app/styles/fonts/gilroy/Gilroy-Regular.ttf\");\nvar ___CSS_LOADER_URL_IMPORT_12___ = __webpack_require__(/*! ./Gilroy-Medium.eot */ \"./src/client/app/styles/fonts/gilroy/Gilroy-Medium.eot\");\nvar ___CSS_LOADER_URL_IMPORT_13___ = __webpack_require__(/*! ./Gilroy-Medium.woff */ \"./src/client/app/styles/fonts/gilroy/Gilroy-Medium.woff\");\nvar ___CSS_LOADER_URL_IMPORT_14___ = __webpack_require__(/*! ./Gilroy-Medium.ttf */ \"./src/client/app/styles/fonts/gilroy/Gilroy-Medium.ttf\");\nvar ___CSS_LOADER_URL_IMPORT_15___ = __webpack_require__(/*! ./Gilroy-SemiBold.eot */ \"./src/client/app/styles/fonts/gilroy/Gilroy-SemiBold.eot\");\nvar ___CSS_LOADER_URL_IMPORT_16___ = __webpack_require__(/*! ./Gilroy-SemiBold.woff */ \"./src/client/app/styles/fonts/gilroy/Gilroy-SemiBold.woff\");\nvar ___CSS_LOADER_URL_IMPORT_17___ = __webpack_require__(/*! ./Gilroy-SemiBold.ttf */ \"./src/client/app/styles/fonts/gilroy/Gilroy-SemiBold.ttf\");\nvar ___CSS_LOADER_URL_IMPORT_18___ = __webpack_require__(/*! ./Gilroy-Bold.eot */ \"./src/client/app/styles/fonts/gilroy/Gilroy-Bold.eot\");\nvar ___CSS_LOADER_URL_IMPORT_19___ = __webpack_require__(/*! ./Gilroy-Bold.woff */ \"./src/client/app/styles/fonts/gilroy/Gilroy-Bold.woff\");\nvar ___CSS_LOADER_URL_IMPORT_20___ = __webpack_require__(/*! ./Gilroy-Bold.ttf */ \"./src/client/app/styles/fonts/gilroy/Gilroy-Bold.ttf\");\nvar ___CSS_LOADER_URL_IMPORT_21___ = __webpack_require__(/*! ./Gilroy-ExtraBold.eot */ \"./src/client/app/styles/fonts/gilroy/Gilroy-ExtraBold.eot\");\nvar ___CSS_LOADER_URL_IMPORT_22___ = __webpack_require__(/*! ./Gilroy-ExtraBold.woff */ \"./src/client/app/styles/fonts/gilroy/Gilroy-ExtraBold.woff\");\nvar ___CSS_LOADER_URL_IMPORT_23___ = __webpack_require__(/*! ./Gilroy-ExtraBold.ttf */ \"./src/client/app/styles/fonts/gilroy/Gilroy-ExtraBold.ttf\");\nvar ___CSS_LOADER_URL_IMPORT_24___ = __webpack_require__(/*! ./Gilroy-Black.eot */ \"./src/client/app/styles/fonts/gilroy/Gilroy-Black.eot\");\nvar ___CSS_LOADER_URL_IMPORT_25___ = __webpack_require__(/*! ./Gilroy-Black.woff */ \"./src/client/app/styles/fonts/gilroy/Gilroy-Black.woff\");\nvar ___CSS_LOADER_URL_IMPORT_26___ = __webpack_require__(/*! ./Gilroy-Black.ttf */ \"./src/client/app/styles/fonts/gilroy/Gilroy-Black.ttf\");\nvar ___CSS_LOADER_URL_IMPORT_27___ = __webpack_require__(/*! ./Gilroy-Heavy.eot */ \"./src/client/app/styles/fonts/gilroy/Gilroy-Heavy.eot\");\nvar ___CSS_LOADER_URL_IMPORT_28___ = __webpack_require__(/*! ./Gilroy-Heavy.woff */ \"./src/client/app/styles/fonts/gilroy/Gilroy-Heavy.woff\");\nvar ___CSS_LOADER_URL_IMPORT_29___ = __webpack_require__(/*! ./Gilroy-Heavy.ttf */ \"./src/client/app/styles/fonts/gilroy/Gilroy-Heavy.ttf\");\nvar ___CSS_LOADER_URL_IMPORT_30___ = __webpack_require__(/*! ./Gilroy-ThinItalic.eot */ \"./src/client/app/styles/fonts/gilroy/Gilroy-ThinItalic.eot\");\nvar ___CSS_LOADER_URL_IMPORT_31___ = __webpack_require__(/*! ./Gilroy-ThinItalic.woff */ \"./src/client/app/styles/fonts/gilroy/Gilroy-ThinItalic.woff\");\nvar ___CSS_LOADER_URL_IMPORT_32___ = __webpack_require__(/*! ./Gilroy-ThinItalic.ttf */ \"./src/client/app/styles/fonts/gilroy/Gilroy-ThinItalic.ttf\");\nvar ___CSS_LOADER_URL_IMPORT_33___ = __webpack_require__(/*! ./Gilroy-UltraLightItalic.eot */ \"./src/client/app/styles/fonts/gilroy/Gilroy-UltraLightItalic.eot\");\nvar ___CSS_LOADER_URL_IMPORT_34___ = __webpack_require__(/*! ./Gilroy-UltraLightItalic.woff */ \"./src/client/app/styles/fonts/gilroy/Gilroy-UltraLightItalic.woff\");\nvar ___CSS_LOADER_URL_IMPORT_35___ = __webpack_require__(/*! ./Gilroy-UltraLightItalic.ttf */ \"./src/client/app/styles/fonts/gilroy/Gilroy-UltraLightItalic.ttf\");\nvar ___CSS_LOADER_URL_IMPORT_36___ = __webpack_require__(/*! ./Gilroy-LightItalic.eot */ \"./src/client/app/styles/fonts/gilroy/Gilroy-LightItalic.eot\");\nvar ___CSS_LOADER_URL_IMPORT_37___ = __webpack_require__(/*! ./Gilroy-LightItalic.woff */ \"./src/client/app/styles/fonts/gilroy/Gilroy-LightItalic.woff\");\nvar ___CSS_LOADER_URL_IMPORT_38___ = __webpack_require__(/*! ./Gilroy-LightItalic.ttf */ \"./src/client/app/styles/fonts/gilroy/Gilroy-LightItalic.ttf\");\nvar ___CSS_LOADER_URL_IMPORT_39___ = __webpack_require__(/*! ./Gilroy-RegularItalic.eot */ \"./src/client/app/styles/fonts/gilroy/Gilroy-RegularItalic.eot\");\nvar ___CSS_LOADER_URL_IMPORT_40___ = __webpack_require__(/*! ./Gilroy-RegularItalic.woff */ \"./src/client/app/styles/fonts/gilroy/Gilroy-RegularItalic.woff\");\nvar ___CSS_LOADER_URL_IMPORT_41___ = __webpack_require__(/*! ./Gilroy-RegularItalic.ttf */ \"./src/client/app/styles/fonts/gilroy/Gilroy-RegularItalic.ttf\");\nvar ___CSS_LOADER_URL_IMPORT_42___ = __webpack_require__(/*! ./Gilroy-MediumItalic.eot */ \"./src/client/app/styles/fonts/gilroy/Gilroy-MediumItalic.eot\");\nvar ___CSS_LOADER_URL_IMPORT_43___ = __webpack_require__(/*! ./Gilroy-MediumItalic.woff */ \"./src/client/app/styles/fonts/gilroy/Gilroy-MediumItalic.woff\");\nvar ___CSS_LOADER_URL_IMPORT_44___ = __webpack_require__(/*! ./Gilroy-MediumItalic.ttf */ \"./src/client/app/styles/fonts/gilroy/Gilroy-MediumItalic.ttf\");\nvar ___CSS_LOADER_URL_IMPORT_45___ = __webpack_require__(/*! ./Gilroy-SemiBoldItalic.eot */ \"./src/client/app/styles/fonts/gilroy/Gilroy-SemiBoldItalic.eot\");\nvar ___CSS_LOADER_URL_IMPORT_46___ = __webpack_require__(/*! ./Gilroy-SemiBoldItalic.woff */ \"./src/client/app/styles/fonts/gilroy/Gilroy-SemiBoldItalic.woff\");\nvar ___CSS_LOADER_URL_IMPORT_47___ = __webpack_require__(/*! ./Gilroy-SemiBoldItalic.ttf */ \"./src/client/app/styles/fonts/gilroy/Gilroy-SemiBoldItalic.ttf\");\nvar ___CSS_LOADER_URL_IMPORT_48___ = __webpack_require__(/*! ./Gilroy-BoldItalic.eot */ \"./src/client/app/styles/fonts/gilroy/Gilroy-BoldItalic.eot\");\nvar ___CSS_LOADER_URL_IMPORT_49___ = __webpack_require__(/*! ./Gilroy-BoldItalic.woff */ \"./src/client/app/styles/fonts/gilroy/Gilroy-BoldItalic.woff\");\nvar ___CSS_LOADER_URL_IMPORT_50___ = __webpack_require__(/*! ./Gilroy-BoldItalic.ttf */ \"./src/client/app/styles/fonts/gilroy/Gilroy-BoldItalic.ttf\");\nvar ___CSS_LOADER_URL_IMPORT_51___ = __webpack_require__(/*! ./Gilroy-ExtraBoldItalic.eot */ \"./src/client/app/styles/fonts/gilroy/Gilroy-ExtraBoldItalic.eot\");\nvar ___CSS_LOADER_URL_IMPORT_52___ = __webpack_require__(/*! ./Gilroy-ExtraBoldItalic.woff */ \"./src/client/app/styles/fonts/gilroy/Gilroy-ExtraBoldItalic.woff\");\nvar ___CSS_LOADER_URL_IMPORT_53___ = __webpack_require__(/*! ./Gilroy-ExtraBoldItalic.ttf */ \"./src/client/app/styles/fonts/gilroy/Gilroy-ExtraBoldItalic.ttf\");\nvar ___CSS_LOADER_URL_IMPORT_54___ = __webpack_require__(/*! ./Gilroy-BlackItalic.eot */ \"./src/client/app/styles/fonts/gilroy/Gilroy-BlackItalic.eot\");\nvar ___CSS_LOADER_URL_IMPORT_55___ = __webpack_require__(/*! ./Gilroy-BlackItalic.woff */ \"./src/client/app/styles/fonts/gilroy/Gilroy-BlackItalic.woff\");\nvar ___CSS_LOADER_URL_IMPORT_56___ = __webpack_require__(/*! ./Gilroy-BlackItalic.ttf */ \"./src/client/app/styles/fonts/gilroy/Gilroy-BlackItalic.ttf\");\nvar ___CSS_LOADER_URL_IMPORT_57___ = __webpack_require__(/*! ./Gilroy-HeavyItalic.eot */ \"./src/client/app/styles/fonts/gilroy/Gilroy-HeavyItalic.eot\");\nvar ___CSS_LOADER_URL_IMPORT_58___ = __webpack_require__(/*! ./Gilroy-HeavyItalic.woff */ \"./src/client/app/styles/fonts/gilroy/Gilroy-HeavyItalic.woff\");\nvar ___CSS_LOADER_URL_IMPORT_59___ = __webpack_require__(/*! ./Gilroy-HeavyItalic.ttf */ \"./src/client/app/styles/fonts/gilroy/Gilroy-HeavyItalic.ttf\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___, { hash: \"?#iefix\" });\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);\nvar ___CSS_LOADER_URL_REPLACEMENT_3___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_2___);\nvar ___CSS_LOADER_URL_REPLACEMENT_4___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_3___);\nvar ___CSS_LOADER_URL_REPLACEMENT_5___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_3___, { hash: \"?#iefix\" });\nvar ___CSS_LOADER_URL_REPLACEMENT_6___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_4___);\nvar ___CSS_LOADER_URL_REPLACEMENT_7___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_5___);\nvar ___CSS_LOADER_URL_REPLACEMENT_8___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_6___);\nvar ___CSS_LOADER_URL_REPLACEMENT_9___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_6___, { hash: \"?#iefix\" });\nvar ___CSS_LOADER_URL_REPLACEMENT_10___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_7___);\nvar ___CSS_LOADER_URL_REPLACEMENT_11___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_8___);\nvar ___CSS_LOADER_URL_REPLACEMENT_12___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_9___);\nvar ___CSS_LOADER_URL_REPLACEMENT_13___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_9___, { hash: \"?#iefix\" });\nvar ___CSS_LOADER_URL_REPLACEMENT_14___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_10___);\nvar ___CSS_LOADER_URL_REPLACEMENT_15___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_11___);\nvar ___CSS_LOADER_URL_REPLACEMENT_16___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_12___);\nvar ___CSS_LOADER_URL_REPLACEMENT_17___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_12___, { hash: \"?#iefix\" });\nvar ___CSS_LOADER_URL_REPLACEMENT_18___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_13___);\nvar ___CSS_LOADER_URL_REPLACEMENT_19___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_14___);\nvar ___CSS_LOADER_URL_REPLACEMENT_20___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_15___);\nvar ___CSS_LOADER_URL_REPLACEMENT_21___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_15___, { hash: \"?#iefix\" });\nvar ___CSS_LOADER_URL_REPLACEMENT_22___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_16___);\nvar ___CSS_LOADER_URL_REPLACEMENT_23___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_17___);\nvar ___CSS_LOADER_URL_REPLACEMENT_24___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_18___);\nvar ___CSS_LOADER_URL_REPLACEMENT_25___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_18___, { hash: \"?#iefix\" });\nvar ___CSS_LOADER_URL_REPLACEMENT_26___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_19___);\nvar ___CSS_LOADER_URL_REPLACEMENT_27___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_20___);\nvar ___CSS_LOADER_URL_REPLACEMENT_28___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_21___);\nvar ___CSS_LOADER_URL_REPLACEMENT_29___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_21___, { hash: \"?#iefix\" });\nvar ___CSS_LOADER_URL_REPLACEMENT_30___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_22___);\nvar ___CSS_LOADER_URL_REPLACEMENT_31___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_23___);\nvar ___CSS_LOADER_URL_REPLACEMENT_32___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_24___);\nvar ___CSS_LOADER_URL_REPLACEMENT_33___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_24___, { hash: \"?#iefix\" });\nvar ___CSS_LOADER_URL_REPLACEMENT_34___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_25___);\nvar ___CSS_LOADER_URL_REPLACEMENT_35___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_26___);\nvar ___CSS_LOADER_URL_REPLACEMENT_36___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_27___);\nvar ___CSS_LOADER_URL_REPLACEMENT_37___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_27___, { hash: \"?#iefix\" });\nvar ___CSS_LOADER_URL_REPLACEMENT_38___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_28___);\nvar ___CSS_LOADER_URL_REPLACEMENT_39___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_29___);\nvar ___CSS_LOADER_URL_REPLACEMENT_40___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_30___);\nvar ___CSS_LOADER_URL_REPLACEMENT_41___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_30___, { hash: \"?#iefix\" });\nvar ___CSS_LOADER_URL_REPLACEMENT_42___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_31___);\nvar ___CSS_LOADER_URL_REPLACEMENT_43___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_32___);\nvar ___CSS_LOADER_URL_REPLACEMENT_44___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_33___);\nvar ___CSS_LOADER_URL_REPLACEMENT_45___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_33___, { hash: \"?#iefix\" });\nvar ___CSS_LOADER_URL_REPLACEMENT_46___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_34___);\nvar ___CSS_LOADER_URL_REPLACEMENT_47___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_35___);\nvar ___CSS_LOADER_URL_REPLACEMENT_48___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_36___);\nvar ___CSS_LOADER_URL_REPLACEMENT_49___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_36___, { hash: \"?#iefix\" });\nvar ___CSS_LOADER_URL_REPLACEMENT_50___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_37___);\nvar ___CSS_LOADER_URL_REPLACEMENT_51___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_38___);\nvar ___CSS_LOADER_URL_REPLACEMENT_52___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_39___);\nvar ___CSS_LOADER_URL_REPLACEMENT_53___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_39___, { hash: \"?#iefix\" });\nvar ___CSS_LOADER_URL_REPLACEMENT_54___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_40___);\nvar ___CSS_LOADER_URL_REPLACEMENT_55___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_41___);\nvar ___CSS_LOADER_URL_REPLACEMENT_56___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_42___);\nvar ___CSS_LOADER_URL_REPLACEMENT_57___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_42___, { hash: \"?#iefix\" });\nvar ___CSS_LOADER_URL_REPLACEMENT_58___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_43___);\nvar ___CSS_LOADER_URL_REPLACEMENT_59___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_44___);\nvar ___CSS_LOADER_URL_REPLACEMENT_60___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_45___);\nvar ___CSS_LOADER_URL_REPLACEMENT_61___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_45___, { hash: \"?#iefix\" });\nvar ___CSS_LOADER_URL_REPLACEMENT_62___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_46___);\nvar ___CSS_LOADER_URL_REPLACEMENT_63___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_47___);\nvar ___CSS_LOADER_URL_REPLACEMENT_64___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_48___);\nvar ___CSS_LOADER_URL_REPLACEMENT_65___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_48___, { hash: \"?#iefix\" });\nvar ___CSS_LOADER_URL_REPLACEMENT_66___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_49___);\nvar ___CSS_LOADER_URL_REPLACEMENT_67___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_50___);\nvar ___CSS_LOADER_URL_REPLACEMENT_68___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_51___);\nvar ___CSS_LOADER_URL_REPLACEMENT_69___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_51___, { hash: \"?#iefix\" });\nvar ___CSS_LOADER_URL_REPLACEMENT_70___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_52___);\nvar ___CSS_LOADER_URL_REPLACEMENT_71___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_53___);\nvar ___CSS_LOADER_URL_REPLACEMENT_72___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_54___);\nvar ___CSS_LOADER_URL_REPLACEMENT_73___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_54___, { hash: \"?#iefix\" });\nvar ___CSS_LOADER_URL_REPLACEMENT_74___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_55___);\nvar ___CSS_LOADER_URL_REPLACEMENT_75___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_56___);\nvar ___CSS_LOADER_URL_REPLACEMENT_76___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_57___);\nvar ___CSS_LOADER_URL_REPLACEMENT_77___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_57___, { hash: \"?#iefix\" });\nvar ___CSS_LOADER_URL_REPLACEMENT_78___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_58___);\nvar ___CSS_LOADER_URL_REPLACEMENT_79___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_59___);\n// Module\nexports.push([module.i, \"@font-face {\\r\\n  font-family: 'Gilroy';\\r\\n  src: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\r\\n  src: local('Gilroy Thin'), local('Gilroy-Thin'),\\r\\n      url(\" + ___CSS_LOADER_URL_REPLACEMENT_1___ + \") format('embedded-opentype'),\\r\\n      url(\" + ___CSS_LOADER_URL_REPLACEMENT_2___ + \") format('woff'),\\r\\n      url(\" + ___CSS_LOADER_URL_REPLACEMENT_3___ + \") format('truetype');\\r\\n  font-weight: 100;\\r\\n  font-style: normal;\\r\\n}\\r\\n\\r\\n@font-face {\\r\\n  font-family: 'Gilroy';\\r\\n  src: url(\" + ___CSS_LOADER_URL_REPLACEMENT_4___ + \");\\r\\n  src: local('Gilroy UltraLight'), local('Gilroy-UltraLight'),\\r\\n      url(\" + ___CSS_LOADER_URL_REPLACEMENT_5___ + \") format('embedded-opentype'),\\r\\n      url(\" + ___CSS_LOADER_URL_REPLACEMENT_6___ + \") format('woff'),\\r\\n      url(\" + ___CSS_LOADER_URL_REPLACEMENT_7___ + \") format('truetype');\\r\\n  font-weight: 200;\\r\\n  font-style: normal;\\r\\n}\\r\\n\\r\\n@font-face {\\r\\n  font-family: 'Gilroy';\\r\\n  src: url(\" + ___CSS_LOADER_URL_REPLACEMENT_8___ + \");\\r\\n  src: local('Gilroy Light'), local('Gilroy-Light'),\\r\\n      url(\" + ___CSS_LOADER_URL_REPLACEMENT_9___ + \") format('embedded-opentype'),\\r\\n      url(\" + ___CSS_LOADER_URL_REPLACEMENT_10___ + \") format('woff'),\\r\\n      url(\" + ___CSS_LOADER_URL_REPLACEMENT_11___ + \") format('truetype');\\r\\n  font-weight: 300;\\r\\n  font-style: normal;\\r\\n}\\r\\n\\r\\n@font-face {\\r\\n  font-family: 'Gilroy';\\r\\n  src: url(\" + ___CSS_LOADER_URL_REPLACEMENT_12___ + \");\\r\\n  src: local('Gilroy Regular'), local('Gilroy-Regular'),\\r\\n      url(\" + ___CSS_LOADER_URL_REPLACEMENT_13___ + \") format('embedded-opentype'),\\r\\n      url(\" + ___CSS_LOADER_URL_REPLACEMENT_14___ + \") format('woff'),\\r\\n      url(\" + ___CSS_LOADER_URL_REPLACEMENT_15___ + \") format('truetype');\\r\\n  font-weight: 400;\\r\\n  font-style: normal;\\r\\n}\\r\\n\\r\\n@font-face {\\r\\n  font-family: 'Gilroy';\\r\\n  src: url(\" + ___CSS_LOADER_URL_REPLACEMENT_16___ + \");\\r\\n  src: local('Gilroy Medium'), local('Gilroy-Medium'),\\r\\n      url(\" + ___CSS_LOADER_URL_REPLACEMENT_17___ + \") format('embedded-opentype'),\\r\\n      url(\" + ___CSS_LOADER_URL_REPLACEMENT_18___ + \") format('woff'),\\r\\n      url(\" + ___CSS_LOADER_URL_REPLACEMENT_19___ + \") format('truetype');\\r\\n  font-weight: 500;\\r\\n  font-style: normal;\\r\\n}\\r\\n\\r\\n@font-face {\\r\\n  font-family: 'Gilroy';\\r\\n  src: url(\" + ___CSS_LOADER_URL_REPLACEMENT_20___ + \");\\r\\n  src: local('Gilroy SemiBold'), local('Gilroy-SemiBold'),\\r\\n  url(\" + ___CSS_LOADER_URL_REPLACEMENT_21___ + \") format('embedded-opentype'),\\r\\n  url(\" + ___CSS_LOADER_URL_REPLACEMENT_22___ + \") format('woff'),\\r\\n  url(\" + ___CSS_LOADER_URL_REPLACEMENT_23___ + \") format('truetype');\\r\\n  font-weight: 600;\\r\\n  font-style: normal;\\r\\n}\\r\\n\\r\\n@font-face {\\r\\n  font-family: 'Gilroy';\\r\\n  src: url(\" + ___CSS_LOADER_URL_REPLACEMENT_24___ + \");\\r\\n  src: local('Gilroy Bold'), local('Gilroy-Bold'),\\r\\n      url(\" + ___CSS_LOADER_URL_REPLACEMENT_25___ + \") format('embedded-opentype'),\\r\\n      url(\" + ___CSS_LOADER_URL_REPLACEMENT_26___ + \") format('woff'),\\r\\n      url(\" + ___CSS_LOADER_URL_REPLACEMENT_27___ + \") format('truetype');\\r\\n  font-weight: 700;\\r\\n  font-style: normal;\\r\\n}\\r\\n\\r\\n@font-face {\\r\\n    font-family: 'Gilroy';\\r\\n    src: url(\" + ___CSS_LOADER_URL_REPLACEMENT_28___ + \");\\r\\n    src: local('Gilroy ExtraBold'), local('Gilroy-ExtraBold'),\\r\\n        url(\" + ___CSS_LOADER_URL_REPLACEMENT_29___ + \") format('embedded-opentype'),\\r\\n        url(\" + ___CSS_LOADER_URL_REPLACEMENT_30___ + \") format('woff'),\\r\\n        url(\" + ___CSS_LOADER_URL_REPLACEMENT_31___ + \") format('truetype');\\r\\n    font-weight: 800;\\r\\n    font-style: normal;\\r\\n}\\r\\n\\r\\n@font-face {\\r\\n  font-family: 'Gilroy';\\r\\n  src: url(\" + ___CSS_LOADER_URL_REPLACEMENT_32___ + \");\\r\\n  src: local('Gilroy Black'), local('Gilroy-Black'),\\r\\n      url(\" + ___CSS_LOADER_URL_REPLACEMENT_33___ + \") format('embedded-opentype'),\\r\\n      url(\" + ___CSS_LOADER_URL_REPLACEMENT_34___ + \") format('woff'),\\r\\n      url(\" + ___CSS_LOADER_URL_REPLACEMENT_35___ + \") format('truetype');\\r\\n  font-weight: 900;\\r\\n  font-style: normal;\\r\\n}\\r\\n\\r\\n@font-face {\\r\\n    font-family: 'Gilroy';\\r\\n    src: url(\" + ___CSS_LOADER_URL_REPLACEMENT_36___ + \");\\r\\n    src: local('Gilroy Heavy'), local('Gilroy-Heavy'),\\r\\n        url(\" + ___CSS_LOADER_URL_REPLACEMENT_37___ + \") format('embedded-opentype'),\\r\\n        url(\" + ___CSS_LOADER_URL_REPLACEMENT_38___ + \") format('woff'),\\r\\n        url(\" + ___CSS_LOADER_URL_REPLACEMENT_39___ + \") format('truetype');\\r\\n    font-weight: 1000;\\r\\n    font-style: normal;\\r\\n  }\\r\\n\\r\\n@font-face {\\r\\n    font-family: 'Gilroy';\\r\\n    src: url(\" + ___CSS_LOADER_URL_REPLACEMENT_40___ + \");\\r\\n    src: local('Gilroy Thin Italic'), local('Gilroy-ThinItalic'),\\r\\n        url(\" + ___CSS_LOADER_URL_REPLACEMENT_41___ + \") format('embedded-opentype'),\\r\\n        url(\" + ___CSS_LOADER_URL_REPLACEMENT_42___ + \") format('woff'),\\r\\n        url(\" + ___CSS_LOADER_URL_REPLACEMENT_43___ + \") format('truetype');\\r\\n    font-weight: 100;\\r\\n    font-style: italic;\\r\\n}\\r\\n\\r\\n@font-face {\\r\\n  font-family: 'Gilroy';\\r\\n  src: url(\" + ___CSS_LOADER_URL_REPLACEMENT_44___ + \");\\r\\n  src: local('Gilroy UltraLight Italic'), local('Gilroy-UltraLightItalic'),\\r\\n      url(\" + ___CSS_LOADER_URL_REPLACEMENT_45___ + \") format('embedded-opentype'),\\r\\n      url(\" + ___CSS_LOADER_URL_REPLACEMENT_46___ + \") format('woff'),\\r\\n      url(\" + ___CSS_LOADER_URL_REPLACEMENT_47___ + \") format('truetype');\\r\\n  font-weight: 200;\\r\\n  font-style: italic;\\r\\n}\\r\\n\\r\\n@font-face {\\r\\n    font-family: 'Gilroy';\\r\\n    src: url(\" + ___CSS_LOADER_URL_REPLACEMENT_48___ + \");\\r\\n    src: local('Gilroy Light Italic'), local('Gilroy-LightItalic'),\\r\\n        url(\" + ___CSS_LOADER_URL_REPLACEMENT_49___ + \") format('embedded-opentype'),\\r\\n        url(\" + ___CSS_LOADER_URL_REPLACEMENT_50___ + \") format('woff'),\\r\\n        url(\" + ___CSS_LOADER_URL_REPLACEMENT_51___ + \") format('truetype');\\r\\n    font-weight: 300;\\r\\n    font-style: italic;\\r\\n}\\r\\n\\r\\n@font-face {\\r\\n  font-family: 'Gilroy';\\r\\n  src: url(\" + ___CSS_LOADER_URL_REPLACEMENT_52___ + \");\\r\\n  src: local('Gilroy Regular Italic'), local('Gilroy-RegularItalic'),\\r\\n      url(\" + ___CSS_LOADER_URL_REPLACEMENT_53___ + \") format('embedded-opentype'),\\r\\n      url(\" + ___CSS_LOADER_URL_REPLACEMENT_54___ + \") format('woff'),\\r\\n      url(\" + ___CSS_LOADER_URL_REPLACEMENT_55___ + \") format('truetype');\\r\\n  font-weight: 400;\\r\\n  font-style: italic;\\r\\n}\\r\\n\\r\\n@font-face {\\r\\n  font-family: 'Gilroy';\\r\\n  src: url(\" + ___CSS_LOADER_URL_REPLACEMENT_56___ + \");\\r\\n  src: local('Gilroy Medium Italic'), local('Gilroy-MediumItalic'),\\r\\n      url(\" + ___CSS_LOADER_URL_REPLACEMENT_57___ + \") format('embedded-opentype'),\\r\\n      url(\" + ___CSS_LOADER_URL_REPLACEMENT_58___ + \") format('woff'),\\r\\n      url(\" + ___CSS_LOADER_URL_REPLACEMENT_59___ + \") format('truetype');\\r\\n  font-weight: 500;\\r\\n  font-style: italic;\\r\\n}\\r\\n\\r\\n@font-face {\\r\\n  font-family: 'Gilroy';\\r\\n  src: url(\" + ___CSS_LOADER_URL_REPLACEMENT_60___ + \");\\r\\n  src: local('Gilroy SemiBold Italic'), local('Gilroy-SemiBoldItalic'),\\r\\n      url(\" + ___CSS_LOADER_URL_REPLACEMENT_61___ + \") format('embedded-opentype'),\\r\\n      url(\" + ___CSS_LOADER_URL_REPLACEMENT_62___ + \") format('woff'),\\r\\n      url(\" + ___CSS_LOADER_URL_REPLACEMENT_63___ + \") format('truetype');\\r\\n  font-weight: 600;\\r\\n  font-style: italic;\\r\\n}\\r\\n\\r\\n@font-face {\\r\\n  font-family: 'Gilroy';\\r\\n  src: url(\" + ___CSS_LOADER_URL_REPLACEMENT_64___ + \");\\r\\n  src: local('Gilroy Bold Italic'), local('Gilroy-BoldItalic'),\\r\\n      url(\" + ___CSS_LOADER_URL_REPLACEMENT_65___ + \") format('embedded-opentype'),\\r\\n      url(\" + ___CSS_LOADER_URL_REPLACEMENT_66___ + \") format('woff'),\\r\\n      url(\" + ___CSS_LOADER_URL_REPLACEMENT_67___ + \") format('truetype');\\r\\n  font-weight: 700;\\r\\n  font-style: italic;\\r\\n}\\r\\n\\r\\n@font-face {\\r\\n  font-family: 'Gilroy';\\r\\n  src: url(\" + ___CSS_LOADER_URL_REPLACEMENT_68___ + \");\\r\\n  src: local('Gilroy ExtraBold Italic'), local('Gilroy-ExtraBoldItalic'),\\r\\n      url(\" + ___CSS_LOADER_URL_REPLACEMENT_69___ + \") format('embedded-opentype'),\\r\\n      url(\" + ___CSS_LOADER_URL_REPLACEMENT_70___ + \") format('woff'),\\r\\n      url(\" + ___CSS_LOADER_URL_REPLACEMENT_71___ + \") format('truetype');\\r\\n  font-weight: 800;\\r\\n  font-style: italic;\\r\\n}\\r\\n\\r\\n@font-face {\\r\\n    font-family: 'Gilroy';\\r\\n    src: url(\" + ___CSS_LOADER_URL_REPLACEMENT_72___ + \");\\r\\n    src: local('Gilroy Black Italic'), local('Gilroy-BlackItalic'),\\r\\n        url(\" + ___CSS_LOADER_URL_REPLACEMENT_73___ + \") format('embedded-opentype'),\\r\\n        url(\" + ___CSS_LOADER_URL_REPLACEMENT_74___ + \") format('woff'),\\r\\n        url(\" + ___CSS_LOADER_URL_REPLACEMENT_75___ + \") format('truetype');\\r\\n    font-weight: 900;\\r\\n    font-style: italic;\\r\\n}\\r\\n\\r\\n@font-face {\\r\\n    font-family: 'Gilroy';\\r\\n    src: url(\" + ___CSS_LOADER_URL_REPLACEMENT_76___ + \");\\r\\n    src: local('Gilroy Heavy Italic'), local('Gilroy-HeavyItalic'),\\r\\n        url(\" + ___CSS_LOADER_URL_REPLACEMENT_77___ + \") format('embedded-opentype'),\\r\\n        url(\" + ___CSS_LOADER_URL_REPLACEMENT_78___ + \") format('woff'),\\r\\n        url(\" + ___CSS_LOADER_URL_REPLACEMENT_79___ + \") format('truetype');\\r\\n    font-weight: 1000;\\r\\n    font-style: italic;\\r\\n}\\r\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/stylesheet.scss?./node_modules/css-loader/dist/cjs.js");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js!./src/client/app/styles/fonts/hagin/stylesheet.scss":
-/*!*************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/client/app/styles/fonts/hagin/stylesheet.scss ***!
-  \*************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nvar ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../../../../../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ./hagincapsthin.woff2 */ \"./src/client/app/styles/fonts/hagin/hagincapsthin.woff2\");\nvar ___CSS_LOADER_URL_IMPORT_1___ = __webpack_require__(/*! ./hagincapsthin.woff */ \"./src/client/app/styles/fonts/hagin/hagincapsthin.woff\");\nvar ___CSS_LOADER_URL_IMPORT_2___ = __webpack_require__(/*! ./hagincapsthin.ttf */ \"./src/client/app/styles/fonts/hagin/hagincapsthin.ttf\");\nvar ___CSS_LOADER_URL_IMPORT_3___ = __webpack_require__(/*! ./hagincapsmedium.woff2 */ \"./src/client/app/styles/fonts/hagin/hagincapsmedium.woff2\");\nvar ___CSS_LOADER_URL_IMPORT_4___ = __webpack_require__(/*! ./hagincapsmedium.woff */ \"./src/client/app/styles/fonts/hagin/hagincapsmedium.woff\");\nvar ___CSS_LOADER_URL_IMPORT_5___ = __webpack_require__(/*! ./hagincapsmedium.ttf */ \"./src/client/app/styles/fonts/hagin/hagincapsmedium.ttf\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_2___);\nvar ___CSS_LOADER_URL_REPLACEMENT_3___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_3___);\nvar ___CSS_LOADER_URL_REPLACEMENT_4___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_4___);\nvar ___CSS_LOADER_URL_REPLACEMENT_5___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_5___);\n// Module\nexports.push([module.i, \"@font-face {\\r\\n  font-family: 'Hagin Caps';\\r\\n  src: local('Hagin Caps Thin'), local('HaginCapsThin'), url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \") format('woff2'), url(\" + ___CSS_LOADER_URL_REPLACEMENT_1___ + \") format('woff'), url(\" + ___CSS_LOADER_URL_REPLACEMENT_2___ + \") format('truetype');\\r\\n  font-weight: 100;\\r\\n  font-style: normal;\\r\\n}\\r\\n@font-face {\\r\\n  font-family: 'Hagin Caps';\\r\\n  src: local('Hagin Caps Medium'), local('HaginCapsMedium'), url(\" + ___CSS_LOADER_URL_REPLACEMENT_3___ + \") format('woff2'), url(\" + ___CSS_LOADER_URL_REPLACEMENT_4___ + \") format('woff'), url(\" + ___CSS_LOADER_URL_REPLACEMENT_5___ + \") format('truetype');\\r\\n  font-weight: 400;\\r\\n  font-style: normal;\\r\\n}\\r\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/hagin/stylesheet.scss?./node_modules/css-loader/dist/cjs.js");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \"/*****************\\n*\\n* color\\n*\\n*****************/\\n/*****************\\n*\\n* box-shadow\\n*\\n*****************/\\nbody {\\n  margin: 0;\\n  padding: 0;\\n  font-family: \\\"Gilroy\\\";\\n}\\n\\n* {\\n  box-sizing: border-box;\\n  -webkit-font-smoothing: antialiased;\\n  -moz-osx-font-smoothing: grayscale;\\n}\\n\\nul {\\n  margin: 0;\\n  padding: 0;\\n  list-style: none;\\n}\\n\\na {\\n  text-decoration: none;\\n}\\n\\ninput, textarea, select {\\n  -webkit-appearance: none;\\n  -moz-appearance: textfield;\\n}\\n\\ninput[type=number] {\\n  -webkit-appearance: none;\\n  -moz-appearance: textfield;\\n}\\n\\ninput[type=text] {\\n  -webkit-appearance: none;\\n  -moz-appearance: textfield;\\n}\\n\\ninput[type=range] {\\n  -webkit-appearance: none;\\n  -moz-appearance: textfield;\\n}\\n\\ninput[type=checkbox] {\\n  -webkit-appearance: none;\\n  -moz-appearance: textfield;\\n}\\n\\ninput[type=tel] {\\n  -webkit-appearance: none;\\n  -moz-appearance: textfield;\\n}\\n\\ninput[type=email] {\\n  -webkit-appearance: none;\\n  -moz-appearance: textfield;\\n}\\n\\ninput::-webkit-outer-spin-button,\\ninput::-webkit-inner-spin-button {\\n  -webkit-appearance: none;\\n}\\n\\n.scroll-vertical-small {\\n  scrollbar-width: thin;\\n  scrollbar-color: #bca5a7 #d9d9d9;\\n}\\n.scroll-vertical-small::-webkit-scrollbar {\\n  width: 8px;\\n}\\n.scroll-vertical-small::-webkit-scrollbar-track {\\n  background-color: inherit;\\n  background: linear-gradient(90deg, rgb(255, 255, 255) 30%, rgb(217, 217, 217) 50%, rgb(255, 255, 255) 70%);\\n  margin-left: 15px;\\n}\\n.scroll-vertical-small::-webkit-scrollbar-thumb {\\n  width: 4px;\\n  border-radius: 2px;\\n  background-color: #bca5a7;\\n}\\n.scroll-vertical-small::-webkit-scrollbar-button:decrement {\\n  background-repeat: no-repeat;\\n  background-position: center;\\n  background-size: contain;\\n}\\n.scroll-vertical-small::-webkit-scrollbar-button:increment {\\n  background-repeat: no-repeat;\\n  background-position: center;\\n  background-size: contain;\\n}\\n\\n.scroll-horizontal {\\n  scrollbar-width: thin;\\n  scrollbar-color: #bca5a7 #d9d9d9;\\n}\\n.scroll-horizontal::-webkit-scrollbar {\\n  height: 8px;\\n}\\n.scroll-horizontal::-webkit-scrollbar-track {\\n  background-color: inherit;\\n  background: linear-gradient(0deg, rgb(255, 255, 255) 30%, rgb(217, 217, 217) 50%, rgb(255, 255, 255) 70%);\\n  margin-top: 15px;\\n}\\n.scroll-horizontal::-webkit-scrollbar-thumb {\\n  height: 4px;\\n  border-radius: 2px;\\n  background-color: #bca5a7;\\n}\\n\\n.scroll-horizontal-small {\\n  scrollbar-width: thin;\\n  scrollbar-color: #bca5a7 #d9d9d9;\\n}\\n.scroll-horizontal-small::-webkit-scrollbar {\\n  height: 2px;\\n}\\n.scroll-horizontal-small::-webkit-scrollbar-track {\\n  background-color: inherit;\\n  background: linear-gradient(0deg, rgb(255, 255, 255) 30%, rgb(217, 217, 217) 50%, rgb(255, 255, 255) 70%);\\n  margin-top: 15px;\\n}\\n.scroll-horizontal-small::-webkit-scrollbar-thumb {\\n  height: 2px;\\n  border-radius: 2px;\\n  background-color: #bca5a7;\\n}\\n\\n.scroll-horizontal-invisible {\\n  scrollbar-width: thin;\\n}\\n.scroll-horizontal-invisible::-webkit-scrollbar {\\n  height: 0;\\n}\\n.scroll-horizontal-invisible::-webkit-scrollbar-thumb {\\n  height: 0;\\n}\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/client/app/app.global.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -919,6 +897,72 @@ eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../.
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/client/entities/recycling-centers-list/ui/list-head/ui/buttons/hide-list-button/hide-recycling-list.scss":
+/*!*************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js!./src/client/entities/recycling-centers-list/ui/list-head/ui/buttons/hide-list-button/hide-recycling-list.scss ***!
+  \*************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(true);\n// Module\nexports.push([module.i, \"/*****************\\n*\\n* color\\n*\\n*****************/\\n/*****************\\n*\\n* box-shadow\\n*\\n*****************/\\n.hide-recycling-list__button-2XDv9 {\\n  width: 32px;\\n  height: 32px;\\n  padding: 0;\\n  background-color: inherit;\\n  border: none;\\n  line-height: 0;\\n  cursor: pointer;\\n  transition: transform 0.7s;\\n}\\n.hide-recycling-list__button-2XDv9 > svg {\\n  width: 100%;\\n  height: 100%;\\n  fill: #9b8c8c;\\n}\", \"\",{\"version\":3,\"sources\":[\"hide-recycling-list.scss\"],\"names\":[],\"mappings\":\"AAAA;;;;iBAIiB;AACjB;;;;iBAIiB;AACjB;EACE,WAAW;EACX,YAAY;EACZ,UAAU;EACV,yBAAyB;EACzB,YAAY;EACZ,cAAc;EACd,eAAe;EACf,0BAA0B;AAC5B;AACA;EACE,WAAW;EACX,YAAY;EACZ,aAAa;AACf\",\"file\":\"hide-recycling-list.scss\",\"sourcesContent\":[\"/*****************\\n*\\n* color\\n*\\n*****************/\\n/*****************\\n*\\n* box-shadow\\n*\\n*****************/\\n.button {\\n  width: 32px;\\n  height: 32px;\\n  padding: 0;\\n  background-color: inherit;\\n  border: none;\\n  line-height: 0;\\n  cursor: pointer;\\n  transition: transform 0.7s;\\n}\\n.button > svg {\\n  width: 100%;\\n  height: 100%;\\n  fill: #9b8c8c;\\n}\"]}]);\n// Exports\nexports.locals = {\n\t\"button\": \"hide-recycling-list__button-2XDv9\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/client/entities/recycling-centers-list/ui/list-head/ui/buttons/hide-list-button/hide-recycling-list.scss?./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/client/entities/recycling-centers-list/ui/list-head/ui/buttons/show-list-button/show-recycling-list.scss":
+/*!*************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js!./src/client/entities/recycling-centers-list/ui/list-head/ui/buttons/show-list-button/show-recycling-list.scss ***!
+  \*************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(true);\n// Module\nexports.push([module.i, \"/*****************\\n*\\n* color\\n*\\n*****************/\\n/*****************\\n*\\n* box-shadow\\n*\\n*****************/\\n.show-recycling-list__button-1eNho {\\n  position: absolute;\\n  top: -1px;\\n  left: 100%;\\n  height: calc(100% + 2px);\\n  display: flex;\\n  justify-content: center;\\n  align-items: center;\\n  border: 1px solid #ccc;\\n  border-left: none;\\n  border-radius: 0 30px 30px 0;\\n  box-shadow: 5px 3px 5px rgba(31, 52, 0, 0.15);\\n  background-color: inherit;\\n  line-height: 0;\\n  cursor: pointer;\\n}\\n.show-recycling-list__button-1eNho > svg {\\n  width: 36px;\\n  height: 36px;\\n  margin-left: auto;\\n  margin-right: 0;\\n}\", \"\",{\"version\":3,\"sources\":[\"show-recycling-list.scss\"],\"names\":[],\"mappings\":\"AAAA;;;;iBAIiB;AACjB;;;;iBAIiB;AACjB;EACE,kBAAkB;EAClB,SAAS;EACT,UAAU;EACV,wBAAwB;EACxB,aAAa;EACb,uBAAuB;EACvB,mBAAmB;EACnB,sBAAsB;EACtB,iBAAiB;EACjB,4BAA4B;EAC5B,6CAA6C;EAC7C,yBAAyB;EACzB,cAAc;EACd,eAAe;AACjB;AACA;EACE,WAAW;EACX,YAAY;EACZ,iBAAiB;EACjB,eAAe;AACjB\",\"file\":\"show-recycling-list.scss\",\"sourcesContent\":[\"/*****************\\n*\\n* color\\n*\\n*****************/\\n/*****************\\n*\\n* box-shadow\\n*\\n*****************/\\n.button {\\n  position: absolute;\\n  top: -1px;\\n  left: 100%;\\n  height: calc(100% + 2px);\\n  display: flex;\\n  justify-content: center;\\n  align-items: center;\\n  border: 1px solid #ccc;\\n  border-left: none;\\n  border-radius: 0 30px 30px 0;\\n  box-shadow: 5px 3px 5px rgba(31, 52, 0, 0.15);\\n  background-color: inherit;\\n  line-height: 0;\\n  cursor: pointer;\\n}\\n.button > svg {\\n  width: 36px;\\n  height: 36px;\\n  margin-left: auto;\\n  margin-right: 0;\\n}\"]}]);\n// Exports\nexports.locals = {\n\t\"button\": \"show-recycling-list__button-1eNho\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/client/entities/recycling-centers-list/ui/list-head/ui/buttons/show-list-button/show-recycling-list.scss?./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/client/entities/recycling-centers-list/ui/list-head/ui/list.scss":
+/*!*********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js!./src/client/entities/recycling-centers-list/ui/list-head/ui/list.scss ***!
+  \*********************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(true);\n// Module\nexports.push([module.i, \"/*****************\\n*\\n* color\\n*\\n*****************/\\n/*****************\\n*\\n* box-shadow\\n*\\n*****************/\\n.list__head-v74ck {\\n  position: relative;\\n  display: flex;\\n  align-items: center;\\n  padding: 0.75rem 1rem;\\n  border-top: 1px solid #ccc;\\n  border-bottom: 1px solid #ccc;\\n  background-color: #FFFFFF;\\n  font-family: \\\"Hagin Caps\\\";\\n  font-size: 1.125rem;\\n  color: #612228;\\n  letter-spacing: 0.8px;\\n  text-align: center;\\n  z-index: 1;\\n  transition: transform 0.3s;\\n  cursor: pointer;\\n}\\n\\n.list__head-v74ck:hover > [data-btn=recycling-centers-hide] {\\n  transform: translateX(-10px);\\n}\\n\\n.list__text-1eiBm {\\n  flex-grow: 1;\\n  text-align: center;\\n}\", \"\",{\"version\":3,\"sources\":[\"list.scss\"],\"names\":[],\"mappings\":\"AAAA;;;;iBAIiB;AACjB;;;;iBAIiB;AACjB;EACE,kBAAkB;EAClB,aAAa;EACb,mBAAmB;EACnB,qBAAqB;EACrB,0BAA0B;EAC1B,6BAA6B;EAC7B,yBAAyB;EACzB,yBAAyB;EACzB,mBAAmB;EACnB,cAAc;EACd,qBAAqB;EACrB,kBAAkB;EAClB,UAAU;EACV,0BAA0B;EAC1B,eAAe;AACjB;;AAEA;EACE,4BAA4B;AAC9B;;AAEA;EACE,YAAY;EACZ,kBAAkB;AACpB\",\"file\":\"list.scss\",\"sourcesContent\":[\"/*****************\\n*\\n* color\\n*\\n*****************/\\n/*****************\\n*\\n* box-shadow\\n*\\n*****************/\\n.head {\\n  position: relative;\\n  display: flex;\\n  align-items: center;\\n  padding: 0.75rem 1rem;\\n  border-top: 1px solid #ccc;\\n  border-bottom: 1px solid #ccc;\\n  background-color: #FFFFFF;\\n  font-family: \\\"Hagin Caps\\\";\\n  font-size: 1.125rem;\\n  color: #612228;\\n  letter-spacing: 0.8px;\\n  text-align: center;\\n  z-index: 1;\\n  transition: transform 0.3s;\\n  cursor: pointer;\\n}\\n\\n.head:hover > [data-btn=recycling-centers-hide] {\\n  transform: translateX(-10px);\\n}\\n\\n.text {\\n  flex-grow: 1;\\n  text-align: center;\\n}\"]}]);\n// Exports\nexports.locals = {\n\t\"head\": \"list__head-v74ck\",\n\t\"text\": \"list__text-1eiBm\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/client/entities/recycling-centers-list/ui/list-head/ui/list.scss?./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/client/entities/recycling-centers-list/ui/list-item/ui/list.scss":
+/*!*********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js!./src/client/entities/recycling-centers-list/ui/list-item/ui/list.scss ***!
+  \*********************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(true);\n// Module\nexports.push([module.i, \"/*****************\\n*\\n* color\\n*\\n*****************/\\n/*****************\\n*\\n* box-shadow\\n*\\n*****************/\\n.list__item-3EEd1 {\\n  padding: 0;\\n  margin: 0;\\n}\\n\\n.list__link-rG0qD {\\n  display: flex;\\n  align-items: center;\\n  padding: 0.75rem 1rem;\\n  font-family: \\\"Gilroy\\\";\\n  font-size: 0.875rem;\\n  font-weight: 400;\\n  color: #67af01;\\n  letter-spacing: 0.05rem;\\n  text-decoration: none;\\n  line-height: initial;\\n  cursor: pointer;\\n  transition: 0.3s;\\n}\\n.list__link-rG0qD:hover {\\n  background-color: rgb(103, 175, 1);\\n  color: #ffffff;\\n  text-decoration: none;\\n}\\n\\n.list__iconWrap-3QXm4 {\\n  width: 7px;\\n  height: 45.5px;\\n  margin-right: 0.75rem;\\n}\\n.list__iconWrap-3QXm4 > svg {\\n  height: 100%;\\n  width: 100%;\\n}\\n\\n.list__title-TFWyq {\\n  margin-bottom: 0.25rem;\\n  line-height: 1;\\n}\\n\\n.list__info-2kQMF {\\n  color: #612228;\\n  font-size: 0.75rem;\\n  font-weight: 500;\\n}\", \"\",{\"version\":3,\"sources\":[\"list.scss\"],\"names\":[],\"mappings\":\"AAAA;;;;iBAIiB;AACjB;;;;iBAIiB;AACjB;EACE,UAAU;EACV,SAAS;AACX;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,qBAAqB;EACrB,qBAAqB;EACrB,mBAAmB;EACnB,gBAAgB;EAChB,cAAc;EACd,uBAAuB;EACvB,qBAAqB;EACrB,oBAAoB;EACpB,eAAe;EACf,gBAAgB;AAClB;AACA;EACE,kCAAkC;EAClC,cAAc;EACd,qBAAqB;AACvB;;AAEA;EACE,UAAU;EACV,cAAc;EACd,qBAAqB;AACvB;AACA;EACE,YAAY;EACZ,WAAW;AACb;;AAEA;EACE,sBAAsB;EACtB,cAAc;AAChB;;AAEA;EACE,cAAc;EACd,kBAAkB;EAClB,gBAAgB;AAClB\",\"file\":\"list.scss\",\"sourcesContent\":[\"/*****************\\n*\\n* color\\n*\\n*****************/\\n/*****************\\n*\\n* box-shadow\\n*\\n*****************/\\n.item {\\n  padding: 0;\\n  margin: 0;\\n}\\n\\n.link {\\n  display: flex;\\n  align-items: center;\\n  padding: 0.75rem 1rem;\\n  font-family: \\\"Gilroy\\\";\\n  font-size: 0.875rem;\\n  font-weight: 400;\\n  color: #67af01;\\n  letter-spacing: 0.05rem;\\n  text-decoration: none;\\n  line-height: initial;\\n  cursor: pointer;\\n  transition: 0.3s;\\n}\\n.link:hover {\\n  background-color: rgb(103, 175, 1);\\n  color: #ffffff;\\n  text-decoration: none;\\n}\\n\\n.iconWrap {\\n  width: 7px;\\n  height: 45.5px;\\n  margin-right: 0.75rem;\\n}\\n.iconWrap > svg {\\n  height: 100%;\\n  width: 100%;\\n}\\n\\n.title {\\n  margin-bottom: 0.25rem;\\n  line-height: 1;\\n}\\n\\n.info {\\n  color: #612228;\\n  font-size: 0.75rem;\\n  font-weight: 500;\\n}\"]}]);\n// Exports\nexports.locals = {\n\t\"item\": \"list__item-3EEd1\",\n\t\"link\": \"list__link-rG0qD\",\n\t\"iconWrap\": \"list__iconWrap-3QXm4\",\n\t\"title\": \"list__title-TFWyq\",\n\t\"info\": \"list__info-2kQMF\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/client/entities/recycling-centers-list/ui/list-item/ui/list.scss?./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/client/entities/recycling-centers-list/ui/recycling-centers.scss":
+/*!*********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js!./src/client/entities/recycling-centers-list/ui/recycling-centers.scss ***!
+  \*********************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(true);\n// Module\nexports.push([module.i, \".recycling-centers__dropdownList-jyA-7 {\\n  position: absolute;\\n  top: 0.625rem;\\n  left: 0;\\n  width: max-content;\\n  height: auto;\\n  padding: 0;\\n  margin: 0;\\n  text-align: left;\\n  background-color: #ffffff;\\n  box-shadow: 0px 0px 15px rgba(31, 52, 0, 0.15);\\n  list-style-type: none;\\n  transform: translateX(calc(-100% - 5px));\\n  transition: transform 1s;\\n  z-index: 1;\\n}\\n.recycling-centers__dropdownList-jyA-7:hover {\\n  transform: translateX(calc(-100% + 10px));\\n}\\n.recycling-centers__dropdownList-jyA-7 button {\\n  outline-color: transparent;\\n  outline-width: 0px;\\n}\\n.recycling-centers__dropdownList-jyA-7.recycling-centers__is-active-2Sc1o {\\n  transform: translateX(0);\\n}\", \"\",{\"version\":3,\"sources\":[\"recycling-centers.scss\"],\"names\":[],\"mappings\":\"AAAA;EACE,kBAAkB;EAClB,aAAa;EACb,OAAO;EACP,kBAAkB;EAClB,YAAY;EACZ,UAAU;EACV,SAAS;EACT,gBAAgB;EAChB,yBAAyB;EACzB,8CAA8C;EAC9C,qBAAqB;EACrB,wCAAwC;EACxC,wBAAwB;EACxB,UAAU;AACZ;AACA;EACE,yCAAyC;AAC3C;AACA;EACE,0BAA0B;EAC1B,kBAAkB;AACpB;AACA;EACE,wBAAwB;AAC1B\",\"file\":\"recycling-centers.scss\",\"sourcesContent\":[\".dropdownList {\\n  position: absolute;\\n  top: 0.625rem;\\n  left: 0;\\n  width: max-content;\\n  height: auto;\\n  padding: 0;\\n  margin: 0;\\n  text-align: left;\\n  background-color: #ffffff;\\n  box-shadow: 0px 0px 15px rgba(31, 52, 0, 0.15);\\n  list-style-type: none;\\n  transform: translateX(calc(-100% - 5px));\\n  transition: transform 1s;\\n  z-index: 1;\\n}\\n.dropdownList:hover {\\n  transform: translateX(calc(-100% + 10px));\\n}\\n.dropdownList button {\\n  outline-color: transparent;\\n  outline-width: 0px;\\n}\\n.dropdownList.is-active {\\n  transform: translateX(0);\\n}\"]}]);\n// Exports\nexports.locals = {\n\t\"dropdownList\": \"recycling-centers__dropdownList-jyA-7\",\n\t\"is-active\": \"recycling-centers__is-active-2Sc1o\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/client/entities/recycling-centers-list/ui/recycling-centers.scss?./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/client/pages/main/ui/main-page/main-page.scss":
+/*!**************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js!./src/client/pages/main/ui/main-page/main-page.scss ***!
+  \**************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(true);\n// Module\nexports.push([module.i, \".main-page__container-3JhHx {\\n  position: relative;\\n  height: 100vh;\\n  overflow: hidden;\\n}\", \"\",{\"version\":3,\"sources\":[\"main-page.scss\"],\"names\":[],\"mappings\":\"AAAA;EACE,kBAAkB;EAClB,aAAa;EACb,gBAAgB;AAClB\",\"file\":\"main-page.scss\",\"sourcesContent\":[\".container {\\n  position: relative;\\n  height: 100vh;\\n  overflow: hidden;\\n}\"]}]);\n// Exports\nexports.locals = {\n\t\"container\": \"main-page__container-3JhHx\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/client/pages/main/ui/main-page/main-page.scss?./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/client/shared/buttons/submit-button/ui/btn-submit.scss":
 /*!***********************************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js!./src/client/shared/buttons/submit-button/ui/btn-submit.scss ***!
@@ -961,18 +1005,6 @@ eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../.
 
 "use strict";
 eval("\r\n/*\r\n  MIT License http://www.opensource.org/licenses/mit-license.php\r\n  Author Tobias Koppers @sokra\r\n*/\r\n// css base code, injected by the css-loader\r\n// eslint-disable-next-line func-names\r\nmodule.exports = function (useSourceMap) {\r\n    var list = []; // return the list of modules as css string\r\n    list.toString = function toString() {\r\n        return this.map(function (item) {\r\n            var content = cssWithMappingToString(item, useSourceMap);\r\n            if (item[2]) {\r\n                return \"@media \".concat(item[2], \" {\").concat(content, \"}\");\r\n            }\r\n            return content;\r\n        }).join('');\r\n    }; // import a list of modules into the list\r\n    // eslint-disable-next-line func-names\r\n    list.i = function (modules, mediaQuery, dedupe) {\r\n        if (typeof modules === 'string') {\r\n            // eslint-disable-next-line no-param-reassign\r\n            modules = [[null, modules, '']];\r\n        }\r\n        var alreadyImportedModules = {};\r\n        if (dedupe) {\r\n            for (var i = 0; i < this.length; i++) {\r\n                // eslint-disable-next-line prefer-destructuring\r\n                var id = this[i][0];\r\n                if (id != null) {\r\n                    alreadyImportedModules[id] = true;\r\n                }\r\n            }\r\n        }\r\n        for (var _i = 0; _i < modules.length; _i++) {\r\n            var item = [].concat(modules[_i]);\r\n            if (dedupe && alreadyImportedModules[item[0]]) {\r\n                // eslint-disable-next-line no-continue\r\n                continue;\r\n            }\r\n            if (mediaQuery) {\r\n                if (!item[2]) {\r\n                    item[2] = mediaQuery;\r\n                }\r\n                else {\r\n                    item[2] = \"\".concat(mediaQuery, \" and \").concat(item[2]);\r\n                }\r\n            }\r\n            list.push(item);\r\n        }\r\n    };\r\n    return list;\r\n};\r\nfunction cssWithMappingToString(item, useSourceMap) {\r\n    var content = item[1] || ''; // eslint-disable-next-line prefer-destructuring\r\n    var cssMapping = item[3];\r\n    if (!cssMapping) {\r\n        return content;\r\n    }\r\n    if (useSourceMap && typeof btoa === 'function') {\r\n        var sourceMapping = toComment(cssMapping);\r\n        var sourceURLs = cssMapping.sources.map(function (source) {\r\n            return \"/*# sourceURL=\".concat(cssMapping.sourceRoot || '').concat(source, \" */\");\r\n        });\r\n        return [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\r\n    }\r\n    return [content].join('\\n');\r\n} // Adapted from convert-source-map (MIT)\r\nfunction toComment(sourceMap) {\r\n    // eslint-disable-next-line no-undef\r\n    var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\r\n    var data = \"sourceMappingURL=data:application/json;charset=utf-8;base64,\".concat(base64);\r\n    return \"/*# \".concat(data, \" */\");\r\n}\r\n\n\n//# sourceURL=webpack:///./node_modules/css-loader/dist/runtime/api.js?");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
-/*!********************************************************!*\
-  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
-  \********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\r\nmodule.exports = function (url, options) {\r\n    if (!options) {\r\n        // eslint-disable-next-line no-param-reassign\r\n        options = {};\r\n    } // eslint-disable-next-line no-underscore-dangle, no-param-reassign\r\n    url = url && url.__esModule ? url.default : url;\r\n    if (typeof url !== 'string') {\r\n        return url;\r\n    } // If url is already wrapped in quotes, remove them\r\n    if (/^['\"].*['\"]$/.test(url)) {\r\n        // eslint-disable-next-line no-param-reassign\r\n        url = url.slice(1, -1);\r\n    }\r\n    if (options.hash) {\r\n        // eslint-disable-next-line no-param-reassign\r\n        url += options.hash;\r\n    } // Should url be wrapped?\r\n    // See https://drafts.csswg.org/css-values-3/#urls\r\n    if (/[\"'() \\t\\n]/.test(url) || options.needQuotes) {\r\n        return \"\\\"\".concat(url.replace(/\"/g, '\\\\\"').replace(/\\n/g, '\\\\n'), \"\\\"\");\r\n    }\r\n    return url;\r\n};\r\n\n\n//# sourceURL=webpack:///./node_modules/css-loader/dist/runtime/getUrl.js?");
 
 /***/ }),
 
@@ -1413,799 +1445,7 @@ eval("var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.App = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar root_1 = __webpack_require__(/*! react-hot-loader/root */ \"./node_modules/react-hot-loader/root.js\");\r\n__webpack_require__(/*! ./app.global.scss */ \"./src/client/app/app.global.scss\");\r\nvar widgets_1 = __webpack_require__(/*! ../widgets */ \"./src/client/widgets/index.ts\");\r\nvar entities_1 = __webpack_require__(/*! ../entities */ \"./src/client/entities/index.ts\");\r\nfunction AppComponent() {\r\n    return (react_1.default.createElement(\"div\", null,\r\n        react_1.default.createElement(\"div\", { className: \"stretch-content\" },\r\n            react_1.default.createElement(\"div\", { className: \"container-height-screen\" },\r\n                react_1.default.createElement(widgets_1.Nav, null),\r\n                react_1.default.createElement(entities_1.FormDelivery, null),\r\n                react_1.default.createElement(\"div\", { className: \"map-wrap\" },\r\n                    react_1.default.createElement(\"button\", { className: \"btn-remove-route\", id: \"btn-remove-route\", type: \"button\" },\r\n                        react_1.default.createElement(\"span\", { className: \"btn-remove-route__icon\" }, \"\\u2716\"),\r\n                        react_1.default.createElement(\"span\", { className: \"btn-remove-route__text\" }, \"\\u0423\\u0434\\u0430\\u043B\\u0438\\u0442\\u044C \\u043C\\u0430\\u0440\\u0448\\u0440\\u0443\\u0442\")),\r\n                    react_1.default.createElement(\"ul\", { className: \"list-box__dropdown-menu\" },\r\n                        react_1.default.createElement(\"li\", { className: \"list-box__title\", id: \"list-box-head\" },\r\n                            react_1.default.createElement(\"button\", { className: \"btn-hide-houses\", id: \"btn-hide-houses\", type: \"button\" }),\r\n                            react_1.default.createElement(\"div\", { className: \"list-box-item__head-text\" }, \"\\u041F\\u0443\\u043D\\u043A\\u0442\\u044B \\u043F\\u0440\\u0438\\u0435\\u043C\\u0430\"),\r\n                            react_1.default.createElement(\"button\", { className: \"btn-store-houses\", id: \"btn-store-houses\", type: \"button\" },\r\n                                react_1.default.createElement(\"svg\", { xmlns: \"http://www.w3.org/2000/svg\", viewBox: \"0 0 48 48\", width: \"48px\", height: \"48px\" },\r\n                                    react_1.default.createElement(\"path\", { fill: \"#2E7D32\", d: \"M42.534 23.788c1.612 3.586-1.367 7.132-2.766 7.16h-3.484l-5.233-9.287\\r\\n                                              7.717-4.465 3.706 6.408L42.534 23.788 42.534 23.788zM24.097\\r\\n                                              8.276l-1.943-2.262h-2.096c-1.688-.027-3.746.57-4.96 2.308l-.093.152-3.705\\r\\n                                              6.41 7.719 4.467 5.599-9.152L24.097 8.276zM15.404\\r\\n                                              39.903c-3.921-.397-5.635-4.405-4.967-5.652L12.016 31h11.561l-.578\\r\\n                                              8.934h-7.412L15.404 39.903 15.404 39.903z\" }),\r\n                                    react_1.default.createElement(\"g\", null,\r\n                                        react_1.default.createElement(\"path\", { fill: \"#4CAF50\", d: \"M39.467 30.896c1.063-.031 1.786-.666 2.688-1.972l-5.881\\r\\n                                                9.902c-.423.94-1.002 1.094-1.608 1.035h-5.197l-.031 3.157-4.376-7.596\\r\\n                                                4.405-7.685v3.157H39.467L39.467 30.896zM22.666 7.197C21.847 5.886 20.67\\r\\n                                                6.015 20.3 6.015h10.813c1.033-.097 1.457.3 1.732.878l2.582 4.497\\r\\n                                                2.731-1.579-4.375 7.626-8.839.033 2.703-1.58L22.666 7.197 22.666 7.197zM10.662\\r\\n                                                33.782c-.515.913-.366 1.786.264\\r\\n                                                3.045l-5.551-9.788c-.577-.854-.425-1.399-.093-1.916l2.613-4.495-2.732-1.611h8.781l4.467\\r\\n                                                7.656-2.735-1.577L10.662 33.782 10.662 33.782z\" })))))),\r\n                    react_1.default.createElement(\"div\", { className: \"map-delivery\", id: \"mapDelivery\" })))),\r\n        react_1.default.createElement(\"div\", { className: \"privacy-policy\", id: \"privacyPolicy\" },\r\n            react_1.default.createElement(\"p\", null,\r\n                \"\\u041C\\u044B \\u0441\\u043E\\u0431\\u0438\\u0440\\u0430\\u0435\\u043C cookie, \\u0434\\u0430\\u043D\\u043D\\u044B\\u0435 \\u043E\\u0431 IP-\\u0430\\u0434\\u0440\\u0435\\u0441\\u0435 \\u0438 \\u043C\\u0435\\u0441\\u0442\\u043E\\u043F\\u043E\\u043B\\u043E\\u0436\\u0435\\u043D\\u0438\\u0438 \\u041F\\u043E\\u043B\\u044C\\u0437\\u043E\\u0432\\u0430\\u0442\\u0435\\u043B\\u0435\\u0439. \\u041E\\u0441\\u0442\\u0430\\u0432\\u0430\\u044F\\u0441\\u044C \\u043D\\u0430 \\u0441\\u0430\\u0439\\u0442\\u0435,\",\r\n                react_1.default.createElement(\"a\", { className: \"privacy-policy__link\", href: \"/pages/privacy-policy-page\", target: \"_BLANK\" }, \"\\u0432\\u044B \\u0441\\u043E\\u0433\\u043B\\u0430\\u0448\\u0430\\u0435\\u0442\\u0435\\u0441\\u044C \\u0441\\u043E \\u0441\\u0431\\u043E\\u0440\\u043E\\u043C \\u0438 \\u043E\\u0431\\u0440\\u0430\\u0431\\u043E\\u0442\\u043A\\u043E\\u0439 \\u043F\\u0435\\u0440\\u0441\\u043E\\u043D\\u0430\\u043B\\u044C\\u043D\\u044B\\u0445 \\u0434\\u0430\\u043D\\u043D\\u044B\\u0445\")),\r\n            react_1.default.createElement(\"div\", { className: \"privacy-policy__wrap-btn\" },\r\n                react_1.default.createElement(\"input\", { className: \"privacy-policy__button\", type: \"button\", value: \"\\u043F\\u043E\\u043D\\u044F\\u0442\\u043D\\u043E\", id: \"acceptedPolicy\" })))));\r\n}\r\nexports.App = (0, root_1.hot)(AppComponent);\r\n\n\n//# sourceURL=webpack:///./src/client/app/app.tsx?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-Black.eot":
-/*!*************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-Black.eot ***!
-  \*************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-Black.eot\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-Black.eot?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-Black.ttf":
-/*!*************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-Black.ttf ***!
-  \*************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-Black.ttf\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-Black.ttf?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-Black.woff":
-/*!**************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-Black.woff ***!
-  \**************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-Black.woff\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-Black.woff?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-BlackItalic.eot":
-/*!*******************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-BlackItalic.eot ***!
-  \*******************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-BlackItalic.eot\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-BlackItalic.eot?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-BlackItalic.ttf":
-/*!*******************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-BlackItalic.ttf ***!
-  \*******************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-BlackItalic.ttf\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-BlackItalic.ttf?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-BlackItalic.woff":
-/*!********************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-BlackItalic.woff ***!
-  \********************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-BlackItalic.woff\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-BlackItalic.woff?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-Bold.eot":
-/*!************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-Bold.eot ***!
-  \************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-Bold.eot\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-Bold.eot?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-Bold.ttf":
-/*!************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-Bold.ttf ***!
-  \************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-Bold.ttf\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-Bold.ttf?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-Bold.woff":
-/*!*************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-Bold.woff ***!
-  \*************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-Bold.woff\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-Bold.woff?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-BoldItalic.eot":
-/*!******************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-BoldItalic.eot ***!
-  \******************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-BoldItalic.eot\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-BoldItalic.eot?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-BoldItalic.ttf":
-/*!******************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-BoldItalic.ttf ***!
-  \******************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-BoldItalic.ttf\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-BoldItalic.ttf?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-BoldItalic.woff":
-/*!*******************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-BoldItalic.woff ***!
-  \*******************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-BoldItalic.woff\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-BoldItalic.woff?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-ExtraBold.eot":
-/*!*****************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-ExtraBold.eot ***!
-  \*****************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-ExtraBold.eot\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-ExtraBold.eot?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-ExtraBold.ttf":
-/*!*****************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-ExtraBold.ttf ***!
-  \*****************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-ExtraBold.ttf\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-ExtraBold.ttf?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-ExtraBold.woff":
-/*!******************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-ExtraBold.woff ***!
-  \******************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-ExtraBold.woff\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-ExtraBold.woff?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-ExtraBoldItalic.eot":
-/*!***********************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-ExtraBoldItalic.eot ***!
-  \***********************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-ExtraBoldItalic.eot\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-ExtraBoldItalic.eot?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-ExtraBoldItalic.ttf":
-/*!***********************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-ExtraBoldItalic.ttf ***!
-  \***********************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-ExtraBoldItalic.ttf\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-ExtraBoldItalic.ttf?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-ExtraBoldItalic.woff":
-/*!************************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-ExtraBoldItalic.woff ***!
-  \************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-ExtraBoldItalic.woff\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-ExtraBoldItalic.woff?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-Heavy.eot":
-/*!*************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-Heavy.eot ***!
-  \*************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-Heavy.eot\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-Heavy.eot?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-Heavy.ttf":
-/*!*************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-Heavy.ttf ***!
-  \*************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-Heavy.ttf\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-Heavy.ttf?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-Heavy.woff":
-/*!**************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-Heavy.woff ***!
-  \**************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-Heavy.woff\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-Heavy.woff?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-HeavyItalic.eot":
-/*!*******************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-HeavyItalic.eot ***!
-  \*******************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-HeavyItalic.eot\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-HeavyItalic.eot?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-HeavyItalic.ttf":
-/*!*******************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-HeavyItalic.ttf ***!
-  \*******************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-HeavyItalic.ttf\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-HeavyItalic.ttf?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-HeavyItalic.woff":
-/*!********************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-HeavyItalic.woff ***!
-  \********************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-HeavyItalic.woff\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-HeavyItalic.woff?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-Light.eot":
-/*!*************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-Light.eot ***!
-  \*************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-Light.eot\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-Light.eot?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-Light.ttf":
-/*!*************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-Light.ttf ***!
-  \*************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-Light.ttf\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-Light.ttf?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-Light.woff":
-/*!**************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-Light.woff ***!
-  \**************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-Light.woff\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-Light.woff?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-LightItalic.eot":
-/*!*******************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-LightItalic.eot ***!
-  \*******************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-LightItalic.eot\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-LightItalic.eot?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-LightItalic.ttf":
-/*!*******************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-LightItalic.ttf ***!
-  \*******************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-LightItalic.ttf\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-LightItalic.ttf?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-LightItalic.woff":
-/*!********************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-LightItalic.woff ***!
-  \********************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-LightItalic.woff\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-LightItalic.woff?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-Medium.eot":
-/*!**************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-Medium.eot ***!
-  \**************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-Medium.eot\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-Medium.eot?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-Medium.ttf":
-/*!**************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-Medium.ttf ***!
-  \**************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-Medium.ttf\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-Medium.ttf?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-Medium.woff":
-/*!***************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-Medium.woff ***!
-  \***************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-Medium.woff\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-Medium.woff?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-MediumItalic.eot":
-/*!********************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-MediumItalic.eot ***!
-  \********************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-MediumItalic.eot\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-MediumItalic.eot?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-MediumItalic.ttf":
-/*!********************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-MediumItalic.ttf ***!
-  \********************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-MediumItalic.ttf\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-MediumItalic.ttf?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-MediumItalic.woff":
-/*!*********************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-MediumItalic.woff ***!
-  \*********************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-MediumItalic.woff\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-MediumItalic.woff?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-Regular.eot":
-/*!***************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-Regular.eot ***!
-  \***************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-Regular.eot\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-Regular.eot?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-Regular.ttf":
-/*!***************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-Regular.ttf ***!
-  \***************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-Regular.ttf\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-Regular.ttf?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-Regular.woff":
-/*!****************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-Regular.woff ***!
-  \****************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-Regular.woff\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-Regular.woff?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-RegularItalic.eot":
-/*!*********************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-RegularItalic.eot ***!
-  \*********************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-RegularItalic.eot\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-RegularItalic.eot?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-RegularItalic.ttf":
-/*!*********************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-RegularItalic.ttf ***!
-  \*********************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-RegularItalic.ttf\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-RegularItalic.ttf?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-RegularItalic.woff":
-/*!**********************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-RegularItalic.woff ***!
-  \**********************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-RegularItalic.woff\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-RegularItalic.woff?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-SemiBold.eot":
-/*!****************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-SemiBold.eot ***!
-  \****************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-SemiBold.eot\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-SemiBold.eot?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-SemiBold.ttf":
-/*!****************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-SemiBold.ttf ***!
-  \****************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-SemiBold.ttf\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-SemiBold.ttf?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-SemiBold.woff":
-/*!*****************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-SemiBold.woff ***!
-  \*****************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-SemiBold.woff\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-SemiBold.woff?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-SemiBoldItalic.eot":
-/*!**********************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-SemiBoldItalic.eot ***!
-  \**********************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-SemiBoldItalic.eot\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-SemiBoldItalic.eot?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-SemiBoldItalic.ttf":
-/*!**********************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-SemiBoldItalic.ttf ***!
-  \**********************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-SemiBoldItalic.ttf\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-SemiBoldItalic.ttf?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-SemiBoldItalic.woff":
-/*!***********************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-SemiBoldItalic.woff ***!
-  \***********************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-SemiBoldItalic.woff\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-SemiBoldItalic.woff?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-Thin.eot":
-/*!************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-Thin.eot ***!
-  \************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-Thin.eot\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-Thin.eot?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-Thin.ttf":
-/*!************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-Thin.ttf ***!
-  \************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-Thin.ttf\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-Thin.ttf?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-Thin.woff":
-/*!*************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-Thin.woff ***!
-  \*************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-Thin.woff\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-Thin.woff?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-ThinItalic.eot":
-/*!******************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-ThinItalic.eot ***!
-  \******************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-ThinItalic.eot\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-ThinItalic.eot?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-ThinItalic.ttf":
-/*!******************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-ThinItalic.ttf ***!
-  \******************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-ThinItalic.ttf\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-ThinItalic.ttf?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-ThinItalic.woff":
-/*!*******************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-ThinItalic.woff ***!
-  \*******************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-ThinItalic.woff\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-ThinItalic.woff?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-UltraLight.eot":
-/*!******************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-UltraLight.eot ***!
-  \******************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-UltraLight.eot\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-UltraLight.eot?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-UltraLight.ttf":
-/*!******************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-UltraLight.ttf ***!
-  \******************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-UltraLight.ttf\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-UltraLight.ttf?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-UltraLight.woff":
-/*!*******************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-UltraLight.woff ***!
-  \*******************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-UltraLight.woff\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-UltraLight.woff?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-UltraLightItalic.eot":
-/*!************************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-UltraLightItalic.eot ***!
-  \************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-UltraLightItalic.eot\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-UltraLightItalic.eot?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-UltraLightItalic.ttf":
-/*!************************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-UltraLightItalic.ttf ***!
-  \************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-UltraLightItalic.ttf\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-UltraLightItalic.ttf?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/gilroy/Gilroy-UltraLightItalic.woff":
-/*!*************************************************************************!*\
-  !*** ./src/client/app/styles/fonts/gilroy/Gilroy-UltraLightItalic.woff ***!
-  \*************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/Gilroy-UltraLightItalic.woff\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/gilroy/Gilroy-UltraLightItalic.woff?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/hagin/hagincapsmedium.ttf":
-/*!***************************************************************!*\
-  !*** ./src/client/app/styles/fonts/hagin/hagincapsmedium.ttf ***!
-  \***************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/hagincapsmedium.ttf\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/hagin/hagincapsmedium.ttf?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/hagin/hagincapsmedium.woff":
-/*!****************************************************************!*\
-  !*** ./src/client/app/styles/fonts/hagin/hagincapsmedium.woff ***!
-  \****************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/hagincapsmedium.woff\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/hagin/hagincapsmedium.woff?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/hagin/hagincapsmedium.woff2":
-/*!*****************************************************************!*\
-  !*** ./src/client/app/styles/fonts/hagin/hagincapsmedium.woff2 ***!
-  \*****************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/hagincapsmedium.woff2\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/hagin/hagincapsmedium.woff2?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/hagin/hagincapsthin.ttf":
-/*!*************************************************************!*\
-  !*** ./src/client/app/styles/fonts/hagin/hagincapsthin.ttf ***!
-  \*************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/hagincapsthin.ttf\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/hagin/hagincapsthin.ttf?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/hagin/hagincapsthin.woff":
-/*!**************************************************************!*\
-  !*** ./src/client/app/styles/fonts/hagin/hagincapsthin.woff ***!
-  \**************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/hagincapsthin.woff\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/hagin/hagincapsthin.woff?");
-
-/***/ }),
-
-/***/ "./src/client/app/styles/fonts/hagin/hagincapsthin.woff2":
-/*!***************************************************************!*\
-  !*** ./src/client/app/styles/fonts/hagin/hagincapsthin.woff2 ***!
-  \***************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./src/client/app/styles/fonts/gilroy/hagincapsthin.woff2\");\n\n//# sourceURL=webpack:///./src/client/app/styles/fonts/hagin/hagincapsthin.woff2?");
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.App = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar root_1 = __webpack_require__(/*! react-hot-loader/root */ \"./node_modules/react-hot-loader/root.js\");\r\n__webpack_require__(/*! ./app.global.scss */ \"./src/client/app/app.global.scss\");\r\nvar pages_1 = __webpack_require__(/*! ../pages */ \"./src/client/pages/index.ts\");\r\nfunction AppComponent() {\r\n    return (react_1.default.createElement(\"div\", null,\r\n        react_1.default.createElement(\"div\", { className: \"stretch-content\" },\r\n            react_1.default.createElement(pages_1.MainPage, null)),\r\n        react_1.default.createElement(\"div\", { className: \"privacy-policy\", id: \"privacyPolicy\" },\r\n            react_1.default.createElement(\"p\", null,\r\n                \"\\u041C\\u044B \\u0441\\u043E\\u0431\\u0438\\u0440\\u0430\\u0435\\u043C cookie, \\u0434\\u0430\\u043D\\u043D\\u044B\\u0435 \\u043E\\u0431 IP-\\u0430\\u0434\\u0440\\u0435\\u0441\\u0435 \\u0438 \\u043C\\u0435\\u0441\\u0442\\u043E\\u043F\\u043E\\u043B\\u043E\\u0436\\u0435\\u043D\\u0438\\u0438 \\u041F\\u043E\\u043B\\u044C\\u0437\\u043E\\u0432\\u0430\\u0442\\u0435\\u043B\\u0435\\u0439. \\u041E\\u0441\\u0442\\u0430\\u0432\\u0430\\u044F\\u0441\\u044C \\u043D\\u0430 \\u0441\\u0430\\u0439\\u0442\\u0435,\",\r\n                react_1.default.createElement(\"a\", { className: \"privacy-policy__link\", href: \"/pages/privacy-policy-page\", target: \"_BLANK\" }, \"\\u0432\\u044B \\u0441\\u043E\\u0433\\u043B\\u0430\\u0448\\u0430\\u0435\\u0442\\u0435\\u0441\\u044C \\u0441\\u043E \\u0441\\u0431\\u043E\\u0440\\u043E\\u043C \\u0438 \\u043E\\u0431\\u0440\\u0430\\u0431\\u043E\\u0442\\u043A\\u043E\\u0439 \\u043F\\u0435\\u0440\\u0441\\u043E\\u043D\\u0430\\u043B\\u044C\\u043D\\u044B\\u0445 \\u0434\\u0430\\u043D\\u043D\\u044B\\u0445\")),\r\n            react_1.default.createElement(\"div\", { className: \"privacy-policy__wrap-btn\" },\r\n                react_1.default.createElement(\"input\", { className: \"privacy-policy__button\", type: \"button\", value: \"\\u043F\\u043E\\u043D\\u044F\\u0442\\u043D\\u043E\", id: \"acceptedPolicy\" })))));\r\n}\r\nexports.App = (0, root_1.hot)(AppComponent);\r\n\n\n//# sourceURL=webpack:///./src/client/app/app.tsx?");
 
 /***/ }),
 
@@ -2456,6 +1696,145 @@ eval("var api = __webpack_require__(/*! ../../../../../../../node_modules/style-
 
 /***/ }),
 
+/***/ "./src/client/entities/recycling-centers-list/index.ts":
+/*!*************************************************************!*\
+  !*** ./src/client/entities/recycling-centers-list/index.ts ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    var desc = Object.getOwnPropertyDescriptor(m, k);\r\n    if (!desc || (\"get\" in desc ? !m.__esModule : desc.writable || desc.configurable)) {\r\n      desc = { enumerable: true, get: function() { return m[k]; } };\r\n    }\r\n    Object.defineProperty(o, k2, desc);\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./ui/RecyclingCentersList */ \"./src/client/entities/recycling-centers-list/ui/RecyclingCentersList.tsx\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/client/entities/recycling-centers-list/index.ts?");
+
+/***/ }),
+
+/***/ "./src/client/entities/recycling-centers-list/ui/RecyclingCentersList.tsx":
+/*!********************************************************************************!*\
+  !*** ./src/client/entities/recycling-centers-list/ui/RecyclingCentersList.tsx ***!
+  \********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.RecyclingCentersList = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar list_head_1 = __webpack_require__(/*! ./list-head */ \"./src/client/entities/recycling-centers-list/ui/list-head/index.ts\");\r\nvar ListItem_1 = __webpack_require__(/*! ./list-item/ui/ListItem */ \"./src/client/entities/recycling-centers-list/ui/list-item/ui/ListItem.tsx\");\r\nvar recycling_centers_scss_1 = __importDefault(__webpack_require__(/*! ./recycling-centers.scss */ \"./src/client/entities/recycling-centers-list/ui/recycling-centers.scss\"));\r\nvar RecyclingCentersList = function () { return (react_1.default.createElement(\"ul\", { className: recycling_centers_scss_1.default.dropdownList, tabIndex: 0 },\r\n    react_1.default.createElement(list_head_1.ListHead, null),\r\n    react_1.default.createElement(ListItem_1.ListItem, { title: 'Тимирязева' }),\r\n    react_1.default.createElement(ListItem_1.ListItem, { title: 'Ямская' }),\r\n    react_1.default.createElement(ListItem_1.ListItem, { title: 'Чекистов' }))); };\r\nexports.RecyclingCentersList = RecyclingCentersList;\r\n\n\n//# sourceURL=webpack:///./src/client/entities/recycling-centers-list/ui/RecyclingCentersList.tsx?");
+
+/***/ }),
+
+/***/ "./src/client/entities/recycling-centers-list/ui/list-head/index.ts":
+/*!**************************************************************************!*\
+  !*** ./src/client/entities/recycling-centers-list/ui/list-head/index.ts ***!
+  \**************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    var desc = Object.getOwnPropertyDescriptor(m, k);\r\n    if (!desc || (\"get\" in desc ? !m.__esModule : desc.writable || desc.configurable)) {\r\n      desc = { enumerable: true, get: function() { return m[k]; } };\r\n    }\r\n    Object.defineProperty(o, k2, desc);\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./ui/ListHead */ \"./src/client/entities/recycling-centers-list/ui/list-head/ui/ListHead.tsx\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/client/entities/recycling-centers-list/ui/list-head/index.ts?");
+
+/***/ }),
+
+/***/ "./src/client/entities/recycling-centers-list/ui/list-head/ui/ListHead.tsx":
+/*!*********************************************************************************!*\
+  !*** ./src/client/entities/recycling-centers-list/ui/list-head/ui/ListHead.tsx ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.ListHead = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar HideListButton_1 = __webpack_require__(/*! ./buttons/hide-list-button/HideListButton */ \"./src/client/entities/recycling-centers-list/ui/list-head/ui/buttons/hide-list-button/HideListButton.tsx\");\r\nvar ShowListButton_1 = __webpack_require__(/*! ./buttons/show-list-button/ShowListButton */ \"./src/client/entities/recycling-centers-list/ui/list-head/ui/buttons/show-list-button/ShowListButton.tsx\");\r\nvar list_scss_1 = __importDefault(__webpack_require__(/*! ./list.scss */ \"./src/client/entities/recycling-centers-list/ui/list-head/ui/list.scss\"));\r\nvar ListHead = function () { return (react_1.default.createElement(\"li\", { className: list_scss_1.default.head, id: \"list-box-head\" },\r\n    react_1.default.createElement(HideListButton_1.HideListButton, null),\r\n    react_1.default.createElement(\"div\", { className: list_scss_1.default.text }, \"\\u041F\\u0443\\u043D\\u043A\\u0442\\u044B \\u043F\\u0440\\u0438\\u0435\\u043C\\u0430\"),\r\n    react_1.default.createElement(ShowListButton_1.ShowListButton, null))); };\r\nexports.ListHead = ListHead;\r\n\n\n//# sourceURL=webpack:///./src/client/entities/recycling-centers-list/ui/list-head/ui/ListHead.tsx?");
+
+/***/ }),
+
+/***/ "./src/client/entities/recycling-centers-list/ui/list-head/ui/buttons/hide-list-button/HideListButton.tsx":
+/*!****************************************************************************************************************!*\
+  !*** ./src/client/entities/recycling-centers-list/ui/list-head/ui/buttons/hide-list-button/HideListButton.tsx ***!
+  \****************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.HideListButton = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar hide_recycling_list_scss_1 = __importDefault(__webpack_require__(/*! ./hide-recycling-list.scss */ \"./src/client/entities/recycling-centers-list/ui/list-head/ui/buttons/hide-list-button/hide-recycling-list.scss\"));\r\nvar HideListButton = function () { return (react_1.default.createElement(\"button\", { className: hide_recycling_list_scss_1.default.button, \"data-btn\": 'recycling-centers-hide', id: \"btn-hide-houses\", type: \"button\" },\r\n    react_1.default.createElement(\"svg\", { viewBox: \"0 0 15.699 8.707\", xmlSpace: \"preserve\", xmlns: \"http://www.w3.org/2000/svg\" },\r\n        react_1.default.createElement(\"path\", { d: \"M15.699 3.854L1.914 3.854 5.061 0.707 4.354 0 0 4.354 4.354 8.707 5.061 8 1.914 4.854 15.699 4.854z\" })))); };\r\nexports.HideListButton = HideListButton;\r\n\n\n//# sourceURL=webpack:///./src/client/entities/recycling-centers-list/ui/list-head/ui/buttons/hide-list-button/HideListButton.tsx?");
+
+/***/ }),
+
+/***/ "./src/client/entities/recycling-centers-list/ui/list-head/ui/buttons/hide-list-button/hide-recycling-list.scss":
+/*!**********************************************************************************************************************!*\
+  !*** ./src/client/entities/recycling-centers-list/ui/list-head/ui/buttons/hide-list-button/hide-recycling-list.scss ***!
+  \**********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../../../../../node_modules/sass-loader/dist/cjs.js!./hide-recycling-list.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/client/entities/recycling-centers-list/ui/list-head/ui/buttons/hide-list-button/hide-recycling-list.scss\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\nif (true) {\n  if (!content.locals) {\n    module.hot.accept(\n      /*! !../../../../../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../../../../../node_modules/sass-loader/dist/cjs.js!./hide-recycling-list.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/client/entities/recycling-centers-list/ui/list-head/ui/buttons/hide-list-button/hide-recycling-list.scss\",\n      function () {\n        var newContent = __webpack_require__(/*! !../../../../../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../../../../../node_modules/sass-loader/dist/cjs.js!./hide-recycling-list.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/client/entities/recycling-centers-list/ui/list-head/ui/buttons/hide-list-button/hide-recycling-list.scss\");\n\n              newContent = newContent.__esModule ? newContent.default : newContent;\n\n              if (typeof newContent === 'string') {\n                newContent = [[module.i, newContent, '']];\n              }\n\n              update(newContent);\n      }\n    )\n  }\n\n  module.hot.dispose(function() { \n    update();\n  });\n}\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./src/client/entities/recycling-centers-list/ui/list-head/ui/buttons/hide-list-button/hide-recycling-list.scss?");
+
+/***/ }),
+
+/***/ "./src/client/entities/recycling-centers-list/ui/list-head/ui/buttons/show-list-button/ShowListButton.tsx":
+/*!****************************************************************************************************************!*\
+  !*** ./src/client/entities/recycling-centers-list/ui/list-head/ui/buttons/show-list-button/ShowListButton.tsx ***!
+  \****************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.ShowListButton = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar show_recycling_list_scss_1 = __importDefault(__webpack_require__(/*! ./show-recycling-list.scss */ \"./src/client/entities/recycling-centers-list/ui/list-head/ui/buttons/show-list-button/show-recycling-list.scss\"));\r\nvar ShowListButton = function () { return (react_1.default.createElement(\"button\", { className: show_recycling_list_scss_1.default.button, id: \"btn-store-houses\", type: \"button\" },\r\n    react_1.default.createElement(\"svg\", { xmlns: \"http://www.w3.org/2000/svg\", viewBox: \"0 0 48 48\", width: \"48px\", height: \"48px\" },\r\n        react_1.default.createElement(\"path\", { fill: \"#2E7D32\", d: \"M42.534 23.788c1.612 3.586-1.367 7.132-2.766 7.16h-3.484l-5.233-9.287 7.717-4.465 3.706 6.408.06.184zM24.097 8.276l-1.943-2.262h-2.096c-1.688-.027-3.746.57-4.96 2.308l-.093.152-3.705 6.41 7.719 4.467 5.599-9.152-.521-1.923zm-8.693 31.627c-3.921-.397-5.635-4.405-4.967-5.652L12.016 31h11.561l-.578 8.934h-7.412l-.183-.031z\" }),\r\n        react_1.default.createElement(\"path\", { fill: \"#4CAF50\", d: \"M39.467 30.896c1.063-.031 1.786-.666 2.688-1.972l-5.881 9.902c-.423.94-1.002 1.094-1.608 1.035h-5.197l-.031 3.157-4.376-7.596 4.405-7.685v3.157h10v.002zM22.666 7.197c-.819-1.311-1.996-1.182-2.366-1.182h10.813c1.033-.097 1.457.3 1.732.878l2.582 4.497 2.731-1.579-4.375 7.626-8.839.033 2.703-1.58-4.981-8.693zM10.662 33.782c-.515.913-.366 1.786.264 3.045l-5.551-9.788c-.577-.854-.425-1.399-.093-1.916l2.613-4.495-2.732-1.611h8.781l4.467 7.656-2.735-1.577-5.014 8.686z\" })))); };\r\nexports.ShowListButton = ShowListButton;\r\n\n\n//# sourceURL=webpack:///./src/client/entities/recycling-centers-list/ui/list-head/ui/buttons/show-list-button/ShowListButton.tsx?");
+
+/***/ }),
+
+/***/ "./src/client/entities/recycling-centers-list/ui/list-head/ui/buttons/show-list-button/show-recycling-list.scss":
+/*!**********************************************************************************************************************!*\
+  !*** ./src/client/entities/recycling-centers-list/ui/list-head/ui/buttons/show-list-button/show-recycling-list.scss ***!
+  \**********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../../../../../node_modules/sass-loader/dist/cjs.js!./show-recycling-list.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/client/entities/recycling-centers-list/ui/list-head/ui/buttons/show-list-button/show-recycling-list.scss\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\nif (true) {\n  if (!content.locals) {\n    module.hot.accept(\n      /*! !../../../../../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../../../../../node_modules/sass-loader/dist/cjs.js!./show-recycling-list.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/client/entities/recycling-centers-list/ui/list-head/ui/buttons/show-list-button/show-recycling-list.scss\",\n      function () {\n        var newContent = __webpack_require__(/*! !../../../../../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../../../../../node_modules/sass-loader/dist/cjs.js!./show-recycling-list.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/client/entities/recycling-centers-list/ui/list-head/ui/buttons/show-list-button/show-recycling-list.scss\");\n\n              newContent = newContent.__esModule ? newContent.default : newContent;\n\n              if (typeof newContent === 'string') {\n                newContent = [[module.i, newContent, '']];\n              }\n\n              update(newContent);\n      }\n    )\n  }\n\n  module.hot.dispose(function() { \n    update();\n  });\n}\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./src/client/entities/recycling-centers-list/ui/list-head/ui/buttons/show-list-button/show-recycling-list.scss?");
+
+/***/ }),
+
+/***/ "./src/client/entities/recycling-centers-list/ui/list-head/ui/list.scss":
+/*!******************************************************************************!*\
+  !*** ./src/client/entities/recycling-centers-list/ui/list-head/ui/list.scss ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../../../node_modules/sass-loader/dist/cjs.js!./list.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/client/entities/recycling-centers-list/ui/list-head/ui/list.scss\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\nif (true) {\n  if (!content.locals) {\n    module.hot.accept(\n      /*! !../../../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../../../node_modules/sass-loader/dist/cjs.js!./list.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/client/entities/recycling-centers-list/ui/list-head/ui/list.scss\",\n      function () {\n        var newContent = __webpack_require__(/*! !../../../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../../../node_modules/sass-loader/dist/cjs.js!./list.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/client/entities/recycling-centers-list/ui/list-head/ui/list.scss\");\n\n              newContent = newContent.__esModule ? newContent.default : newContent;\n\n              if (typeof newContent === 'string') {\n                newContent = [[module.i, newContent, '']];\n              }\n\n              update(newContent);\n      }\n    )\n  }\n\n  module.hot.dispose(function() { \n    update();\n  });\n}\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./src/client/entities/recycling-centers-list/ui/list-head/ui/list.scss?");
+
+/***/ }),
+
+/***/ "./src/client/entities/recycling-centers-list/ui/list-item/ui/ListItem.tsx":
+/*!*********************************************************************************!*\
+  !*** ./src/client/entities/recycling-centers-list/ui/list-item/ui/ListItem.tsx ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.ListItem = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar shared_1 = __webpack_require__(/*! ../../../../../shared */ \"./src/client/shared/index.ts\");\r\nvar list_scss_1 = __importDefault(__webpack_require__(/*! ./list.scss */ \"./src/client/entities/recycling-centers-list/ui/list-item/ui/list.scss\"));\r\nvar ListItem = function (props) { return (react_1.default.createElement(\"li\", { className: list_scss_1.default.item },\r\n    react_1.default.createElement(\"a\", { className: list_scss_1.default.link, href: \"#\", \"data-shouses\": '${JSON.stringify(data)}' },\r\n        react_1.default.createElement(\"div\", { className: list_scss_1.default.iconWrap },\r\n            react_1.default.createElement(shared_1.DelimiterIcon, null)),\r\n        react_1.default.createElement(\"div\", null,\r\n            react_1.default.createElement(\"div\", { className: list_scss_1.default.title }, props.title),\r\n            react_1.default.createElement(\"div\", { className: list_scss_1.default.info }))))); };\r\nexports.ListItem = ListItem;\r\n\n\n//# sourceURL=webpack:///./src/client/entities/recycling-centers-list/ui/list-item/ui/ListItem.tsx?");
+
+/***/ }),
+
+/***/ "./src/client/entities/recycling-centers-list/ui/list-item/ui/list.scss":
+/*!******************************************************************************!*\
+  !*** ./src/client/entities/recycling-centers-list/ui/list-item/ui/list.scss ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../../../node_modules/sass-loader/dist/cjs.js!./list.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/client/entities/recycling-centers-list/ui/list-item/ui/list.scss\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\nif (true) {\n  if (!content.locals) {\n    module.hot.accept(\n      /*! !../../../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../../../node_modules/sass-loader/dist/cjs.js!./list.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/client/entities/recycling-centers-list/ui/list-item/ui/list.scss\",\n      function () {\n        var newContent = __webpack_require__(/*! !../../../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../../../node_modules/sass-loader/dist/cjs.js!./list.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/client/entities/recycling-centers-list/ui/list-item/ui/list.scss\");\n\n              newContent = newContent.__esModule ? newContent.default : newContent;\n\n              if (typeof newContent === 'string') {\n                newContent = [[module.i, newContent, '']];\n              }\n\n              update(newContent);\n      }\n    )\n  }\n\n  module.hot.dispose(function() { \n    update();\n  });\n}\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./src/client/entities/recycling-centers-list/ui/list-item/ui/list.scss?");
+
+/***/ }),
+
+/***/ "./src/client/entities/recycling-centers-list/ui/recycling-centers.scss":
+/*!******************************************************************************!*\
+  !*** ./src/client/entities/recycling-centers-list/ui/recycling-centers.scss ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../node_modules/sass-loader/dist/cjs.js!./recycling-centers.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/client/entities/recycling-centers-list/ui/recycling-centers.scss\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\nif (true) {\n  if (!content.locals) {\n    module.hot.accept(\n      /*! !../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../node_modules/sass-loader/dist/cjs.js!./recycling-centers.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/client/entities/recycling-centers-list/ui/recycling-centers.scss\",\n      function () {\n        var newContent = __webpack_require__(/*! !../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../node_modules/sass-loader/dist/cjs.js!./recycling-centers.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/client/entities/recycling-centers-list/ui/recycling-centers.scss\");\n\n              newContent = newContent.__esModule ? newContent.default : newContent;\n\n              if (typeof newContent === 'string') {\n                newContent = [[module.i, newContent, '']];\n              }\n\n              update(newContent);\n      }\n    )\n  }\n\n  module.hot.dispose(function() { \n    update();\n  });\n}\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./src/client/entities/recycling-centers-list/ui/recycling-centers.scss?");
+
+/***/ }),
+
 /***/ "./src/client/index.tsx":
 /*!******************************!*\
   !*** ./src/client/index.tsx ***!
@@ -2465,6 +1844,65 @@ eval("var api = __webpack_require__(/*! ../../../../../../../node_modules/style-
 
 "use strict";
 eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    var desc = Object.getOwnPropertyDescriptor(m, k);\r\n    if (!desc || (\"get\" in desc ? !m.__esModule : desc.writable || desc.configurable)) {\r\n      desc = { enumerable: true, get: function() { return m[k]; } };\r\n    }\r\n    Object.defineProperty(o, k2, desc);\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {\r\n    Object.defineProperty(o, \"default\", { enumerable: true, value: v });\r\n}) : function(o, v) {\r\n    o[\"default\"] = v;\r\n});\r\nvar __importStar = (this && this.__importStar) || function (mod) {\r\n    if (mod && mod.__esModule) return mod;\r\n    var result = {};\r\n    if (mod != null) for (var k in mod) if (k !== \"default\" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);\r\n    __setModuleDefault(result, mod);\r\n    return result;\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nvar React = __importStar(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar ReactDOM = __importStar(__webpack_require__(/*! react-dom */ \"./node_modules/@hot-loader/react-dom/index.js\"));\r\nvar app_1 = __webpack_require__(/*! ./app/app */ \"./src/client/app/app.tsx\");\r\nwindow.addEventListener('load', function () {\r\n    ReactDOM.hydrate(React.createElement(app_1.App, null), document.getElementById('react_root'));\r\n});\r\n\n\n//# sourceURL=webpack:///./src/client/index.tsx?");
+
+/***/ }),
+
+/***/ "./src/client/pages/index.ts":
+/*!***********************************!*\
+  !*** ./src/client/pages/index.ts ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    var desc = Object.getOwnPropertyDescriptor(m, k);\r\n    if (!desc || (\"get\" in desc ? !m.__esModule : desc.writable || desc.configurable)) {\r\n      desc = { enumerable: true, get: function() { return m[k]; } };\r\n    }\r\n    Object.defineProperty(o, k2, desc);\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./main */ \"./src/client/pages/main/index.ts\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/client/pages/index.ts?");
+
+/***/ }),
+
+/***/ "./src/client/pages/main/index.ts":
+/*!****************************************!*\
+  !*** ./src/client/pages/main/index.ts ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    var desc = Object.getOwnPropertyDescriptor(m, k);\r\n    if (!desc || (\"get\" in desc ? !m.__esModule : desc.writable || desc.configurable)) {\r\n      desc = { enumerable: true, get: function() { return m[k]; } };\r\n    }\r\n    Object.defineProperty(o, k2, desc);\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./ui */ \"./src/client/pages/main/ui/index.ts\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/client/pages/main/index.ts?");
+
+/***/ }),
+
+/***/ "./src/client/pages/main/ui/index.ts":
+/*!*******************************************!*\
+  !*** ./src/client/pages/main/ui/index.ts ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    var desc = Object.getOwnPropertyDescriptor(m, k);\r\n    if (!desc || (\"get\" in desc ? !m.__esModule : desc.writable || desc.configurable)) {\r\n      desc = { enumerable: true, get: function() { return m[k]; } };\r\n    }\r\n    Object.defineProperty(o, k2, desc);\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./main-page/MainPage */ \"./src/client/pages/main/ui/main-page/MainPage.tsx\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/client/pages/main/ui/index.ts?");
+
+/***/ }),
+
+/***/ "./src/client/pages/main/ui/main-page/MainPage.tsx":
+/*!*********************************************************!*\
+  !*** ./src/client/pages/main/ui/main-page/MainPage.tsx ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.MainPage = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar widgets_1 = __webpack_require__(/*! ../../../../widgets */ \"./src/client/widgets/index.ts\");\r\nvar entities_1 = __webpack_require__(/*! ../../../../entities */ \"./src/client/entities/index.ts\");\r\nvar main_page_scss_1 = __importDefault(__webpack_require__(/*! ./main-page.scss */ \"./src/client/pages/main/ui/main-page/main-page.scss\"));\r\nvar recycling_centers_list_1 = __webpack_require__(/*! ../../../../entities/recycling-centers-list */ \"./src/client/entities/recycling-centers-list/index.ts\");\r\nvar MainPage = function () { return (react_1.default.createElement(\"div\", { className: main_page_scss_1.default.container },\r\n    react_1.default.createElement(widgets_1.Nav, null),\r\n    react_1.default.createElement(recycling_centers_list_1.RecyclingCentersList, null),\r\n    react_1.default.createElement(entities_1.FormDelivery, null),\r\n    react_1.default.createElement(\"div\", { className: \"map-wrap\" },\r\n        react_1.default.createElement(\"button\", { className: \"btn-remove-route\", id: \"btn-remove-route\", type: \"button\" },\r\n            react_1.default.createElement(\"span\", { className: \"btn-remove-route__icon\" }, \"\\u2716\"),\r\n            react_1.default.createElement(\"span\", { className: \"btn-remove-route__text\" }, \"\\u0423\\u0434\\u0430\\u043B\\u0438\\u0442\\u044C \\u043C\\u0430\\u0440\\u0448\\u0440\\u0443\\u0442\")),\r\n        react_1.default.createElement(\"div\", { className: \"map-delivery\", id: \"mapDelivery\" })))); };\r\nexports.MainPage = MainPage;\r\n\n\n//# sourceURL=webpack:///./src/client/pages/main/ui/main-page/MainPage.tsx?");
+
+/***/ }),
+
+/***/ "./src/client/pages/main/ui/main-page/main-page.scss":
+/*!***********************************************************!*\
+  !*** ./src/client/pages/main/ui/main-page/main-page.scss ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../../node_modules/sass-loader/dist/cjs.js!./main-page.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/client/pages/main/ui/main-page/main-page.scss\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\nif (true) {\n  if (!content.locals) {\n    module.hot.accept(\n      /*! !../../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../../node_modules/sass-loader/dist/cjs.js!./main-page.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/client/pages/main/ui/main-page/main-page.scss\",\n      function () {\n        var newContent = __webpack_require__(/*! !../../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../../../../node_modules/sass-loader/dist/cjs.js!./main-page.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/client/pages/main/ui/main-page/main-page.scss\");\n\n              newContent = newContent.__esModule ? newContent.default : newContent;\n\n              if (typeof newContent === 'string') {\n                newContent = [[module.i, newContent, '']];\n              }\n\n              update(newContent);\n      }\n    )\n  }\n\n  module.hot.dispose(function() { \n    update();\n  });\n}\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./src/client/pages/main/ui/main-page/main-page.scss?");
 
 /***/ }),
 
@@ -2523,7 +1961,7 @@ eval("var api = __webpack_require__(/*! ../../../../../../node_modules/style-loa
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    var desc = Object.getOwnPropertyDescriptor(m, k);\r\n    if (!desc || (\"get\" in desc ? !m.__esModule : desc.writable || desc.configurable)) {\r\n      desc = { enumerable: true, get: function() { return m[k]; } };\r\n    }\r\n    Object.defineProperty(o, k2, desc);\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./nav-buttons */ \"./src/client/shared/nav-buttons/index.ts\"), exports);\r\n__exportStar(__webpack_require__(/*! ./buttons */ \"./src/client/shared/buttons/index.ts\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/client/shared/index.ts?");
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    var desc = Object.getOwnPropertyDescriptor(m, k);\r\n    if (!desc || (\"get\" in desc ? !m.__esModule : desc.writable || desc.configurable)) {\r\n      desc = { enumerable: true, get: function() { return m[k]; } };\r\n    }\r\n    Object.defineProperty(o, k2, desc);\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./nav-buttons */ \"./src/client/shared/nav-buttons/index.ts\"), exports);\r\n__exportStar(__webpack_require__(/*! ./buttons */ \"./src/client/shared/buttons/index.ts\"), exports);\r\n__exportStar(__webpack_require__(/*! ./svg */ \"./src/client/shared/svg/index.ts\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/client/shared/index.ts?");
 
 /***/ }),
 
@@ -2667,6 +2105,30 @@ eval("var api = __webpack_require__(/*! ../../../../../node_modules/style-loader
 
 "use strict";
 eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    var desc = Object.getOwnPropertyDescriptor(m, k);\r\n    if (!desc || (\"get\" in desc ? !m.__esModule : desc.writable || desc.configurable)) {\r\n      desc = { enumerable: true, get: function() { return m[k]; } };\r\n    }\r\n    Object.defineProperty(o, k2, desc);\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./button-communicate */ \"./src/client/shared/nav-buttons/button-communicate/index.ts\"), exports);\r\n__exportStar(__webpack_require__(/*! ./button-delivery */ \"./src/client/shared/nav-buttons/button-delivery/index.ts\"), exports);\r\n__exportStar(__webpack_require__(/*! ./button-history */ \"./src/client/shared/nav-buttons/button-history/index.ts\"), exports);\r\n__exportStar(__webpack_require__(/*! ./button-settings */ \"./src/client/shared/nav-buttons/button-settings/index.ts\"), exports);\r\n__exportStar(__webpack_require__(/*! ./button-more */ \"./src/client/shared/nav-buttons/button-more/index.ts\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/client/shared/nav-buttons/index.ts?");
+
+/***/ }),
+
+/***/ "./src/client/shared/svg/delimiter/DelimiterIcon.tsx":
+/*!***********************************************************!*\
+  !*** ./src/client/shared/svg/delimiter/DelimiterIcon.tsx ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.DelimiterIcon = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar DelimiterIcon = function () { return (react_1.default.createElement(\"svg\", { width: 4, height: 26, viewBox: \"0 0 4 26\", fill: \"none\", xmlns: \"http://www.w3.org/2000/svg\" },\r\n    react_1.default.createElement(\"path\", { d: \"M1.412 1.726C1.309.648 1.807.126 2.068 0c.525.423.656 1.327.656 1.726.485.4.638 1.238.528 1.822-.031.164-.227.157-.298.005-.782-1.68-1.43-.742-1.848-.043-.093.155-.3.107-.306-.073-.035-1 .283-1.503.612-1.711zM1.411 6.353a8.292 8.292 0 01.027-1.002c.098-1.143 1.114-1.17 1.17-.025.015.32.008.647-.014.965-.085 1.223-1.138 1.287-1.183.062zM3.236 8.39c-1.118 1.1-1.985.65-2.62-.082C.47 8.141.19 8.263.26 8.472c.451 1.338 1.181 2.035 1.705 2.519.061.056.152.07.223.024.644-.414 1.118-1.421 1.458-2.41.073-.214-.25-.375-.411-.216zM1.9 13.813c-.747-.496-.53-1.33-.049-1.697a.34.34 0 01.422.021c.692.577.43 1.409-.028 1.695a.32.32 0 01-.346-.019zM3.414 17.488c-1.233-1.494-2.172-.934-2.845-.057-.134.175-.42.066-.363-.147.427-1.564 1.194-2.093 1.746-2.473l.005-.004a.195.195 0 01.223-.001c.92.65 1.366 1.614 1.611 2.52.057.212-.237.33-.377.162zM1.412 20.427c-.04-.54-.026-1.09.028-1.585.115-1.048 1.102-1.086 1.23-.04a7.72 7.72 0 01.012 1.612c-.112 1.227-1.18 1.243-1.27.013zM2.971 22.267c-.847 1.568-1.494.544-1.941-.06a.169.169 0 00-.3.045c-.454 1.265.245 1.844.682 1.978 0 1 .437 1.597.656 1.77.525-.268.656-1.291.656-1.77.854-.715.782-1.502.56-1.979-.062-.134-.242-.114-.313.016z\", fill: \"#447300\" }))); };\r\nexports.DelimiterIcon = DelimiterIcon;\r\n\n\n//# sourceURL=webpack:///./src/client/shared/svg/delimiter/DelimiterIcon.tsx?");
+
+/***/ }),
+
+/***/ "./src/client/shared/svg/index.ts":
+/*!****************************************!*\
+  !*** ./src/client/shared/svg/index.ts ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    var desc = Object.getOwnPropertyDescriptor(m, k);\r\n    if (!desc || (\"get\" in desc ? !m.__esModule : desc.writable || desc.configurable)) {\r\n      desc = { enumerable: true, get: function() { return m[k]; } };\r\n    }\r\n    Object.defineProperty(o, k2, desc);\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./delimiter/DelimiterIcon */ \"./src/client/shared/svg/delimiter/DelimiterIcon.tsx\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/client/shared/svg/index.ts?");
 
 /***/ }),
 

@@ -62,20 +62,22 @@ module.exports = {
         test: GLOBAL_CSS_REGEXP,
         use: [`css-loader`]
       },
-      {
-        test: /\.(eot|svg|ttf|woff|woff2)$/,
-        use: [
-          {
-            loader: 'file-loader?name=./src/client/app/styles/fonts/gilroy/[name].[ext]'
-          },
-          {
-            loader: 'file-loader?name=./src/client/app/styles/fonts/hagin/[name].[ext]'
-          },
-          {
-            loader: 'file-loader?name=./src/client/app/styles/fonts/montserrat/[name].[ext]'
-          }
-        ]
-      }
+      // {
+      //   test: /\.(eot|ttf|woff|woff2)$/,
+      //   loader: 'file-loader',
+      //   options: {
+      //     name: '[name].[ext]',
+      //     outputPath: 'assets/fonts'
+      //   },
+      // },
+      // {
+      //   test: /\.(jpeg|jpg|svg|png|gif)$/,
+      //   loader: 'file-loader',
+      //   options: {
+      //     name: '[name].[ext]',
+      //     outputPath: 'assets/img',
+      //   },
+      // }
     ]
   },
   optimization: {

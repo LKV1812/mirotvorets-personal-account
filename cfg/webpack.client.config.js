@@ -69,22 +69,22 @@ module.exports = {
         test: GLOBAL_CSS_REGEXP,
         use: ['style-loader', `css-loader`]
       },
-      // {
-      //   test: /\.(eot|ttf|woff|woff2)$/,
-      //   loader: 'file-loader',
-      //   options: {
-      //     name: '[name].[ext]',
-      //     outputPath: 'assets/fonts',
-      //   },
-      // },
-      // {
-      //   test: /\.(jpeg|jpg|svg|png|gif)$/,
-      //   loader: 'file-loader',
-      //   options: {
-      //     name: '[name].[ext]',
-      //     outputPath: 'assets/img',
-      //   },
-      // }
+      {
+        test: /\.(eot|ttf|woff|woff2)$/,
+        loader: 'file-loader',
+        options: {
+          name: '[name].[ext]',
+          outputPath: 'assets/fonts',
+        },
+      },
+      {
+        test: /\.(jpeg|jpg|svg|png|gif)$/,
+        loader: 'file-loader',
+        options: {
+          name: '[name].[ext]',
+          outputPath: 'assets/img',
+        },
+      }
     ]
   },
   devtool: setupDevtool(),

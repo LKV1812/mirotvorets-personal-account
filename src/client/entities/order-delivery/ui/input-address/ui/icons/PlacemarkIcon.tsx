@@ -16,7 +16,7 @@ export const PlacemarkIcon = () => {
             <defs>
                 <style>
                     {
-                        ".mark-address{stroke:#67af01;stroke-width:.4;stroke-miterlimit:22.9256}.mark-address-fill{fill:none}"
+                        ".mark-address{stroke:#67af01;strokeWidth:.4;stroke-miterlimit:22.9256}.mark-address-fill{fill:none}"
                     }
                 </style>
             </defs>

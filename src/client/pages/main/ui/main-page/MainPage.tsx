@@ -6,12 +6,11 @@ import styles from './main-page.scss'
 
 export const MainPage = () => (
     <div className={styles.container}>
-        <Nav />
         <RecyclingCentersList />
         <FormDelivery />
         <div className={styles.mapWrap}>
             <RemoveRouteBtn />
-            <MapYandex />
+            <MapYandex center={[57.129626, 65.536304]} zoom={16}/>
             <PrivacyPolicy />
         </div>
     </div>

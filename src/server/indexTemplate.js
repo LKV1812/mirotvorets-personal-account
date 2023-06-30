@@ -31,7 +31,7 @@ export const indexTemplate = (content) => `
     </head>
   <body>
     <div id="react_root">${content}</div>
-    <script src="https://api-maps.yandex.ru/2.1/?apikey=4ce07f9d-d0c5-48da-8c8a-f943b956c1c0&amp;lang=ru_RU" 
+    <script src="https://api-maps.yandex.ru/2.1?apikey=3f93e312-347a-463d-a8c8-8c646a5549dd&lang=ru_RU" 
         type="text/javascript">    
     </script>
     <script src="vendor/libs/jquery/dist/jquery.min.js"></script>

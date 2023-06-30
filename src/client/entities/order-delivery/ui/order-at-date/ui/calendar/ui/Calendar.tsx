@@ -1,7 +1,25 @@
-import React from 'react'
+import React, {ChangeEvent, useState} from 'react'
 import styles from './calendar.scss'
 
 export const Calendar = () => {
+    const [valueHoursFrom, setValueHoursFrom] = useState('')
+    const [valueMinutesFrom, setValueMinutesFrom] = useState('')
+    const [valueHoursTo, setValueHoursTo] = useState('')
+    const [valueMinutesTo, setValueMinutesTo] = useState('')
+    const handleChangeHoursFrom = (e: ChangeEvent<HTMLInputElement>) => {
+        setValueHoursFrom(e.currentTarget.value)
+    }
+    const handleChangeMinutesFrom = (e: ChangeEvent<HTMLInputElement>) => {
+        setValueMinutesFrom(e.currentTarget.value)
+    }
+    const handleChangeHoursTo = (e: ChangeEvent<HTMLInputElement>) => {
+        setValueHoursTo(e.currentTarget.value)
+    }
+    const handleChangeMinutesTo = (e: ChangeEvent<HTMLInputElement>) => {
+        setValueMinutesTo(e.currentTarget.value)
+    }
+
+
     return(
         <div className={styles.container} id="calendar">
             <div className={styles.btnCloseWrap}>
@@ -181,37 +199,59 @@ export const Calendar = () => {
                 <span>Время c</span>
                 <div className={styles.inputTimeWrap}>
                     <input
-                        className={styles.selectTimeInput} type="number" name="time_from"
-                        maxLength={2} data-working-hours={8-20}
+                        className={styles.selectTimeInput}
+                        onChange={handleChangeHoursFrom}
+                        type="number"
+                        name="time_from"
+                        maxLength={2}
+                        data-working-hours={8-20}
                         data-notification-calendar="{&quot;text&quot;:&quot;Вы выбрали нерабочие
                                                 часы! Мы работаем с 08:00 до 20:00. Заявка может быть перенесена на
                                                 другое время&quot;,
                                                 &quot;className&quot;:&quot;calendar-notification-warning&quot;}"
-                        data-hours="from" placeholder="08"
+                        data-hours="from"
+                        placeholder="08"
+                        value={valueHoursFrom}
                     />
                     <span>:</span>
                     <input
-                        className={styles.selectTimeInput} type="number" name="time_from"
-                        data-minutes="from" placeholder="00"
+                        className={styles.selectTimeInput}
+                        onChange={handleChangeMinutesFrom}
+                        type="number"
+                        name="time_from"
+                        data-minutes="from"
+                        placeholder="00"
+                        value={valueMinutesFrom}
                     />
                 </div>
                 <span>до</span>
                 <div className={styles.inputTimeWrap}>
                     <input
-                        className={styles.selectTimeInput} type="number" name="time_to"
+                        className={styles.selectTimeInput}
+                        onChange={handleChangeHoursTo}
+                        type="number"
+                        name="time_to"
                         data-working-hours="8-20"
                         data-notification-calendar="{&quot;text&quot;:&quot;Вы выбрали нерабочие часы! Мы работаем с 08:00 до 20:00. Заявка может быть перенесена на другое время&quot;, &quot;className&quot;:&quot;calendar-notification-warning&quot;}"
                         data-hours="to" placeholder="18"
+                        value={valueHoursTo}
                     />
                     <span>:</span>
                     <input
-                        className={styles.selectTimeInput} type="number" name="time_to"
-                        data-minutes="to" placeholder="00"
+                        onChange={handleChangeMinutesTo}
+                        className={styles.selectTimeInput}
+                        type="number"
+                        name="time_to"
+                        data-minutes="to"
+                        placeholder="00"
+                        value={valueMinutesTo}
                     />
                 </div>
             </div>
             <div className={styles.inputSaveWrap}>
-                <input className={styles.btnSaveDate} type="button" value="готово"/>
+                <button className={styles.btnSaveDate} type="button">
+                    готово
+                </button>
             </div>
         </div>
     )

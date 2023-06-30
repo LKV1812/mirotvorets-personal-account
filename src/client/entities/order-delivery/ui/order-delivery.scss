@@ -14,9 +14,14 @@
   background-color: #FFFFFF;
   transition: transform linear .3s;
   z-index: 1;
+  //transform: translateY(-100%);
 }
 
-[data-states-item-submenu="open"] {
+//[data-states-item-submenu="open"] {
+//  transform: translateY(-100%);
+//}
+
+[aria-hidden="false"] {
   transform: translateY(-100%);
 }
 

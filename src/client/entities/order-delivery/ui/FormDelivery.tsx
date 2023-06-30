@@ -6,19 +6,21 @@ import {InputPhone} from "./input-phone";
 import {TextareaCustom} from "./textarea";
 import {OrderAtDate} from "./order-at-date";
 import {SubmitButton} from "../../../shared";
+import {useAppSelector} from '../../../app/model/redux';
 
 export const FormDelivery = () => {
+    const isOpenDeliveryForm = useAppSelector(state => state.deliveryOrder.isOpen)
     return (
         <form className={styles.form} id="orderDelivery" data-states-item-submenu="close"
-              data-for="form-order-account" data-action="/forms/orderDeliveryFromAccount">
-            <input type="hidden" name="form_type" value="order_delivery_user_account_form"
-                   data-for="header-form"/>
-            <input type="hidden" name="form_title" value="Заявка из личного кабинета"
-                   data-for="header-form"/>
-            <input type="hidden" name="admin_email" value="zayavka@mirotvorets72.com"
-                   data-for="header-form"/>
-            <input type="hidden" name="captcha_token" data-captcha="captcha"
-                   data-for="header-form"/>
+              data-for="form-order-account" data-action="/forms/orderDeliveryFromAccount" aria-hidden={!isOpenDeliveryForm}>
+            {/*<input type="hidden" name="form_type" value="order_delivery_user_account_form"*/}
+            {/*       data-for="header-form"/>*/}
+            {/*<input type="hidden" name="form_title" value="Заявка из личного кабинета"*/}
+            {/*       data-for="header-form"/>*/}
+            {/*<input type="hidden" name="admin_email" value="zayavka@mirotvorets72.com"*/}
+            {/*       data-for="header-form"/>*/}
+            {/*<input type="hidden" name="captcha_token" data-captcha="captcha"*/}
+            {/*       data-for="header-form"/>*/}
             <div className={styles.contentWrapper}>
                 <InputAddress/>
                 <div id="suggest-view-container"></div>

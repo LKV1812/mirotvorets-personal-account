@@ -1,0 +1,7 @@
+export * from './delimiter/DelimiterIcon'
+export * from './communicate/CommunicateIcon'
+export * from './car/CarIcon'
+export * from './list/ListIcon'
+export * from './setting/SettingIcon'
+export * from './burger/BurgerIcon'
+export * from './clock/ClockIcon'
